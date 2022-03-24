@@ -40,7 +40,7 @@
 					<div class="card">
 						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'1.png');?>" alt="https://unsplash.com/@kellybrito">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="<?= route_to('Crucigrama');?>">Crucigramas</a></div>
+							<div class="card-title"><a href="<?= route_to('Q1');?>">Grado</a></div>
 							<!-- <div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div> -->
 						</div>
 					</div>
@@ -51,7 +51,7 @@
 					<div class="card">
 						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'2.png');?>" alt="https://unsplash.com/@cikstefan">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="<?= route_to('Quiz');?>">Quiz Educativos</a></div>
+							<div class="card-title"><a href="<?= route_to('Q2');?>">Grado</a></div>
 							<!-- <div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div> -->
 						</div>
 					</div>
@@ -62,7 +62,7 @@
 					<div class="card">
 						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'3.png');?>" alt="https://unsplash.com/@dsmacinnes">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="<?= route_to('Sopa');?>">Sopa de letras</a></div>
+							<div class="card-title"><a href="<?= route_to('Q3');?>">Grado</a></div>
 							<!-- <div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div> -->
 						</div>
 					</div>

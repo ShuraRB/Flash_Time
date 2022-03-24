@@ -48,6 +48,9 @@ $routes->get('/otro_lado_1', 'Portal\El_otro_lado_de_la_historia\Otro_lado_1::in
 $routes->get('/Crucigrama', 'Portal\Juegos\Crucigrama::index',['as' => 'Crucigrama']);
 $routes->get('/Quiz', 'Portal\Juegos\Quiz::index',['as' => 'Quiz']);
 $routes->get('/Sopa', 'Portal\Juegos\Sopa::index',['as' => 'Sopa']);
+$routes->get('/Q1', 'Portal\Juegos\Q1::index',['as' => 'Q1']);
+$routes->get('/Q2', 'Portal\Juegos\Q2::index',['as' => 'Q2']);
+$routes->get('/Q3', 'Portal\Juegos\Q3::index',['as' => 'Q3']);
 $routes->get('/un_dia_como_hoy_1', 'Portal\Un_dia_como_hoy\Un_dia_como_hoy_1::index',['as' => 'un_dia_como_hoy_1']);
 /*
  * --------------------------------------------------------------------
