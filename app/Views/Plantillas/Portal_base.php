@@ -130,7 +130,7 @@
 						<!-- Logo -->
 						<div class="logo_container">
 							<div class="logo">
-								<img class="icon_logo" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'libro.svg');?>" alt="">
+								<img class="icon_logo" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'libro-b.png');?>" alt="">
 								<span>Flash Time</span>
 							</div>
 						</div>
