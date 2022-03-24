@@ -361,11 +361,11 @@ section
 .main_nav_item
 {
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 40px;
 }
 .main_nav_item:last-child
 {
-	margin-right: 10px;
+	margin-right: 50px;
 }
 .main_nav_item a
 {

@@ -65,7 +65,7 @@
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'news_2.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Corte.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -96,7 +96,7 @@
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'news_3.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Plan.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -129,7 +129,7 @@
 
 					<div class="news_page_nav">
 						<ul>
-							<li class="active text-center trans_200"><a href="#">01</a></li>
+							<li class="active text-center trans_200"><a href="<?= route_to('un_dia');?>">01</a></li>
 							<li class="text-center trans_200"><a href="#">02</a></li>
 							<li class="text-center trans_200"><a href="#">03</a></li>
 						</ul>
@@ -151,8 +151,9 @@
 								<li class="sidebar_list_item"><a href="#">Natalicio Benito Juárez</a></li>
 								<li class="sidebar_list_item"><a href="#">Inauguración de la Suprema Corte de Justicia</a></li>
 								<li class="sidebar_list_item"><a href="#">Promulgación del plan de guadalupe</a></li>
-								<li class="sidebar_list_item"><a href="#">About Our Departments</a></li>
-								<li class="sidebar_list_item"><a href="#">Choose the right course</a></li>
+								<li class="sidebar_list_item"><a href="#">Heroica defensa del puerto de Veracruz</a></li>
+								<li class="sidebar_list_item"><a href="#">Toma de Querétaro</a></li>
+								<li class="sidebar_list_item"><a href="#">Fundación de Petróleos Mexicanos PEMEX</a></li>
 							</ul>
 						</div>
 
@@ -160,7 +161,7 @@
 
 						<div class="sidebar_section">
 							<div class="sidebar_section_title">
-								<h3>Latest posts</h3>
+								<h3>Ultimas publicaciones</h3>
 							</div>
 							
 							<div class="latest_posts">
@@ -168,39 +169,36 @@
 								<!-- Latest Post -->
 								<div class="latest_post">
 									<div class="latest_post_image">
-										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'latest_1.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
+										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'defensa.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
 									</div>
-									<div class="latest_post_title"><a href="news_post.html">Why do you need a qualification?</a></div>
+									<div class="latest_post_title"><a href="news_post.html">Heroica defensa del puerto de Veracruz</a></div>
 									<div class="latest_post_meta">
-										<span class="latest_post_author"><a href="#">By Christian Smith</a></span>
-										<span>|</span>
-										<span class="latest_post_comments"><a href="#">3 Comments</a></span>
+										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
+										
 									</div>
 								</div>
 
 								<!-- Latest Post -->
 								<div class="latest_post">
 									<div class="latest_post_image">
-										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'latest_2.jpg');?>" alt="https://unsplash.com/@erothermel">
+										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Queretaro.jpg');?>" alt="https://unsplash.com/@erothermel">
 									</div>
-									<div class="latest_post_title"><a href="news_post.html">Why do you need a qualification?</a></div>
+									<div class="latest_post_title"><a href="news_post.html">Toma de Querétaro</a></div>
 									<div class="latest_post_meta">
-										<span class="latest_post_author"><a href="#">By Christian Smith</a></span>
-										<span>|</span>
-										<span class="latest_post_comments"><a href="#">3 Comments</a></span>
+										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
+										
 									</div>
 								</div>
 
 								<!-- Latest Post -->
 								<div class="latest_post">
 									<div class="latest_post_image">
-										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'latest_3.jpg');?>" alt="https://unsplash.com/@element5digital">
+										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Pemex.jpg');?>" alt="https://unsplash.com/@element5digital">
 									</div>
-									<div class="latest_post_title"><a href="news_post.html">Why do you need a qualification?</a></div>
+									<div class="latest_post_title"><a href="news_post.html">Fundación de Petróleos Mexicanos PEMEX</a></div>
 									<div class="latest_post_meta">
-										<span class="latest_post_author"><a href="#">By Christian Smith</a></span>
-										<span>|</span>
-										<span class="latest_post_comments"><a href="#">3 Comments</a></span>
+										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
+										
 									</div>
 								</div>
 								
