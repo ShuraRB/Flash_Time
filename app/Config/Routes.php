@@ -45,7 +45,7 @@ $routes->get('/un_día_como_hoy', 'Portal\Un_día::index',['as' => 'un_día']);
 // Rutas de las Publicaciones
 $routes->get('/otro_lado_1', 'Portal\El_otro_lado_de_la_historia\Otro_lado_1::index',['as' => 'otro_lado_1']);
 $routes->get('/juego_1', 'Portal\Juego\Juego_1::index',['as' => 'juego_1']);
-
+$routes->get('/un_dia_como_hoy_1', 'Portal\Un_dia_como_hoy\Un_dia_como_hoy_1::index',['as' => 'un_dia_como_hoy_1']);
 /*
  * --------------------------------------------------------------------
  * Additional Routing
