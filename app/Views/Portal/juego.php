@@ -37,7 +37,7 @@
 				<!-- Popular Course Item -->
 				<div class="col-lg-4 course_box">
 					<div class="card">
-						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'course_1.jpg');?>" alt="https://unsplash.com/@kellybrito">
+						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'crucigrama.png');?>" alt="https://unsplash.com/@kellybrito">
 						<div class="card-body text-center">
 							<div class="card-title"><a href="courses.html">A complete guide to design</a></div>
 							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
@@ -48,7 +48,7 @@
 				<!-- Popular Course Item -->
 				<div class="col-lg-4 course_box">
 					<div class="card">
-						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'course_2.jpg');?>" alt="https://unsplash.com/@cikstefan">
+						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'encuesta.png');?>" alt="https://unsplash.com/@cikstefan">
 						<div class="card-body text-center">
 							<div class="card-title"><a href="courses.html">Beginners guide to HTML</a></div>
 							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
