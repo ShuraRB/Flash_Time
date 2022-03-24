@@ -47,28 +47,28 @@
 {
 	.header
 	{
-		width: 1200px;
+		width: 1270px;
 	}
 	.header_content
 	{
-		width: calc(100% - 219px);
+		width: calc(100% - 40px);
 	}
 	.main_nav_container
 	{
-		padding-right: 63px;
+		padding-right: 10px;
 	}
 	.header_side
 	{
-		width: 219px;
+		width: 40px;
 	}
 	.header_side span
 	{
-		font-size: 14px;
+		font-size: 18px;
 	}
 	.header_side img
 	{
-		width: 20px;
-		height: 20px;
+		width: 40px;
+		height: 40px;
 	}
 }
 
@@ -154,7 +154,7 @@
 	}
 	.logo_container
 	{
-		padding-left: 10px;
+		padding-left: 5px;
 	}
 	.hamburger_container
 	{
