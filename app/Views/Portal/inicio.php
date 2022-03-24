@@ -41,7 +41,7 @@
 					<div class="hero_slide_background" style="background-image:url(<?= base_url(RECURSOS_PORTAL_IMAGES.'historia_background.jpg');?>)"></div>
 					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 						<div class="hero_slide_content text-center">
-							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Lee y escucha los <span>eventos mas relevantes</span> de la historia!</h1>
+							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Lee y escucha los <span>eventos mas relevantes</span> !</h1>
 						</div>
 					</div>
 				</div>

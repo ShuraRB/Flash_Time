@@ -43,11 +43,18 @@ $routes->get('/la_otra_cara_de_la_historia', 'Portal\Otro_lado::index',['as' => 
 $routes->get('/un_día_como_hoy', 'Portal\Un_día::index',['as' => 'un_día']);
 
 // Rutas de las Publicaciones
-$routes->get('/otro_lado_1', 'Portal\El_otro_lado_de_la_historia\Otro_lado_1::index',['as' => 'otro_lado_1']);
 $routes->get('/Crucigrama', 'Portal\Juegos\Crucigrama::index',['as' => 'Crucigrama']);
 $routes->get('/Quiz', 'Portal\Juegos\Quiz::index',['as' => 'Quiz']);
 $routes->get('/Sopa', 'Portal\Juegos\Sopa::index',['as' => 'Sopa']);
 $routes->get('/un_dia_como_hoy_1', 'Portal\Un_dia_como_hoy\Un_dia_como_hoy_1::index',['as' => 'un_dia_como_hoy_1']);
+
+//Rutas de las publicaciones de la otra cara de la historia
+$routes->get('/otro_lado_1', 'Portal\El_otro_lado_de_la_historia\Otro_lado_1::index',['as' => 'otro_lado_1']);
+$routes->get('/otro_lado_2', 'Portal\El_otro_lado_de_la_historia\Otro_lado_2::index',['as' => 'otro_lado_2']);
+$routes->get('/otro_lado_3', 'Portal\El_otro_lado_de_la_historia\Otro_lado_3::index',['as' => 'otro_lado_3']);
+$routes->get('/otro_lado_4', 'Portal\El_otro_lado_de_la_historia\Otro_lado_4::index',['as' => 'otro_lado_4']);
+$routes->get('/otro_lado_5', 'Portal\El_otro_lado_de_la_historia\Otro_lado_5::index',['as' => 'otro_lado_5']);
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

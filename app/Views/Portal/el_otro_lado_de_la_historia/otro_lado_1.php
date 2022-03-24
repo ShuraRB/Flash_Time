@@ -17,7 +17,7 @@
 		</div>
 		<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 			<div class="hero_slide_content text-center">
-				<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">El otro <span>lado</span> de la <span>historia</span> ...</h1>
+				<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">La otra <span>cara</span> de la <span>historia</span> ...</h1>
 			</div>
 		</div>
 	</div>
@@ -47,44 +47,38 @@
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">Título</a>
+										<a href="news_post.html">La Peste Negra</a>
 									</div>
 									<div class="news_post_meta">
-										<span class="news_post_author">Por: Autor</a></span>
+										<span class="news_post_author">Por: Ana Rugerio</a></span>
 										<!-- <span>|</span> -->
 									</div>
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla,
-									vitae tempor nisl ligula vel nunc. Proin quis mi malesuada,
-									finibus tortor fermentum. Etiam eu purus nec eros varius luctus.
-									Praesent finibus risus facilisis ultricies. Etiam eu purus nec eros
-									varius luctus. Praesent finibus risus facilisis ultricies venenatis.
-									Suspendisse fermentum sodales lacus, lacinia gravida elit dapibus sed.
-									Cras in lectus elit. Maecenas tempus nunc vitae mi egestas venenatis.
-									Aliquam rhoncus, purus in vehicula porttitor, lacus ante consequat purus,
-									id elementum enim purus nec enim. In sed odio rhoncus, tristique ipsum id,
-									pharetra neque. </p>
+								<p> En 1346 en la zona del Cauca salió la peste negra, salió por la peste bubónica, 
+									ya que hacia que las extremidades del cuerpo se gangrenarán y evidentemente 
+									desprendiera un olor fuerte, esta se dispersó del Cauca, el imperio bizantino, 
+									Italia, a lo que hoy es Francia, España, y llego hasta Rusia, Finlandia. 
+ </p>
 							</div>
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'news_1.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'news_1_1.jpg');?>">
 							</div>
 							<div class="news_post_quote">
-								<p class="news_post_quote_text"><span>E</span>tiam eu purus nec eros varius luctus. Praesent 
-								finibus risus facilisis ultricies venena tis. Suspendisse fermentum sodales lacus, lacinia 
-								gravida elit.</p>
+								<p class="news_post_quote_text"><span>L</span>o peor de la peste no es que mata
+							a los cuerpos, sino que desnuda las almas y ese espectáculo suele ser horroroso
+						- Albery Camus</p>
 							</div>
 
-							<p class="news_post_text" style="margin-top: 59px;">In aliquam, augue a gravida rutrum, ante nisl 
-							fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. 
-							Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies. Etiam eu purus nec 
-							eros varius luctus. Praesent finibus risus facilisis ultricies venenatis. Suspendisse fermentum 
-							sodales lacus, lacinia gravida elit dapibus sed. Cras in lectus elit. Maecenas tempus nunc vitae
-							mi egestas venenatis. Aliquam rhoncus, purus in vehicula porttitor, lacus ante consequat purus,
-							id elementum enim purus nec enim. In sed odio rhoncus, tristique ipsum id, pharetra neque. </p>
+							<p class="news_post_text" style="margin-top: 59px;">Esta plaga 
+									se infectaba por medio de una pulga y la pulga infectaba a las ratas, pero las ratas 
+									morían así que las pulgas infectaron a los humanos. La estimación de los muertos fueron 
+									75 a 200 millones de personas que murieron ya que no había mucho avance en medicina y la 
+									población creía que si te daba la peste era un castigo divino y por una parte inculparon 
+									a los judíos y hacían matar a los judíos pensando que era por culpa de ellos. </p>
 
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/tm7-LlUc7uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="640" height="360" src="https://www.youtube.com/embed/OMek3iJbKEw?list=RDCMUCVvYB5q5UJ4KZwlYdVW35zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							<!-- Fin de la publicación -->
 						</div>
 					</div>
