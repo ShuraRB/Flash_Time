@@ -37,7 +37,7 @@ $routes->get('/', 'Portal\Inicio::index',['as' => 'inicio']);
 /* --------------------------------------------------------------------
 * PORTAL
 * --------------------------------------------------------------------*/
-$routes->get('/Juego', 'Portal\Juego::index',['as' => 'Juego']);
+$routes->get('/Juegos', 'Portal\Juegos::index',['as' => 'Juegos']);
 $routes->get('/personajes', 'Portal\Personajes::index',['as' => 'personajes']);
 $routes->get('/la_otra_cara_de_la_historia', 'Portal\Otro_lado::index',['as' => 'otro_lado']);
 $routes->get('/un_día_como_hoy', 'Portal\Un_día::index',['as' => 'un_día']);

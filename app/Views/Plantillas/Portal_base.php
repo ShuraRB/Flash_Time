@@ -45,7 +45,7 @@
 							<div>Inicio</div></a>
 						</li>
 						<li class="main_nav_item">
-							<a href="<?= route_to('Juego');?>">
+							<a href="<?= route_to('Juegos');?>">
 							<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick.png');?>" alt="juego">
 							<div>Juegos</div></a>
 						</li>
