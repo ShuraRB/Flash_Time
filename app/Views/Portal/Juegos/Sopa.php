@@ -21,10 +21,10 @@
 	</div>
 
 	<!-- Juegos -->
+	
+	<!-- Aqui va el codigo del juego -->
 
-	<div class="contact">
-		<!-- Aqui va el codigo del juego -->
-	</div>
+	<iframe id="playframe" src="https://www.digipuzzle.net/digipuzzle/wordsearch/puzzles/kids_greeks_es.htm?language=spanish" frameborder="0" scrolling="no" width="100%" height="576"></iframe>
 
 	<!-- Footer -->
 
