@@ -41,6 +41,7 @@ $routes->get('/Juego', 'Portal\Juego::index',['as' => 'Juego']);
 $routes->get('/personajes', 'Portal\Personajes::index',['as' => 'personajes']);
 $routes->get('/la_otra_cara_de_la_historia', 'Portal\Otro_lado::index',['as' => 'otro_lado']);
 $routes->get('/un_día_como_hoy', 'Portal\Un_día::index',['as' => 'un_día']);
+$routes->get('/un_día_como_hoy_second', 'Portal\Un_día_next::index',['as' => 'un_día_next']);
 
 // Rutas de las Publicaciones
 $routes->get('/otro_lado_1', 'Portal\El_otro_lado_de_la_historia\Otro_lado_1::index',['as' => 'otro_lado_1']);
