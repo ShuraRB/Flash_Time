@@ -59,7 +59,7 @@
 				<!-- Popular Course Item -->
 				<div class="col-lg-4 course_box">
 					<div class="card">
-						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'course_3.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
+						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'sopa.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
 						<div class="card-body text-center">
 							<div class="card-title"><a href="courses.html">Advanced Photoshop</a></div>
 							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
