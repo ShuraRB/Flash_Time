@@ -52,6 +52,10 @@ $routes->get('/Q2', 'Portal\Juegos\Q2::index',['as' => 'Q2']);
 $routes->get('/Q3', 'Portal\Juegos\Q3::index',['as' => 'Q3']);
 $routes->get('/un_dia_como_hoy_1', 'Portal\Un_dia_como_hoy\Un_dia_como_hoy_1::index',['as' => 'un_dia_como_hoy_1']);
 
+//Rutas personajes
+$routes->get('/hidalgo', 'Portal\Personajes\Hidalgo::index',['as' => 'hidalgo']);
+$routes->get('/morelos', 'Portal\Personajes\Morelos::index',['as' => 'morelos']);
+$routes->get('/law', 'Portal\Personajes\Law::index',['as' => 'law']);
 //Rutas de las publicaciones de la otra cara de la historia
 $routes->get('/otro_lado_1', 'Portal\El_otro_lado_de_la_historia\Otro_lado_1::index',['as' => 'otro_lado_1']);
 $routes->get('/otro_lado_2', 'Portal\El_otro_lado_de_la_historia\Otro_lado_2::index',['as' => 'otro_lado_2']);
