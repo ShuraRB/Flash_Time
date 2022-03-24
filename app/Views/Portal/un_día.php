@@ -34,28 +34,28 @@
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'news_1.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Benito.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>18</div>
-										<div>dec</div>
+										<div>21</div>
+										<div>Marzo</div>
 									</div>
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">Why do you need a qualification?</a>
+										<a href="news_post.html">Natalicio de Benito Juárez.</a>
 									</div>
 									<div class="news_post_meta">
-										<span class="news_post_author"><a href="#">By Christian Smith</a></span>
-										<span>|</span>
-										<span class="news_post_comments"><a href="#">3 Comments</a></span>
+										<span class="news_post_author"><a href="#">Subido por Genaro</a></span>
+										
+										
 									</div>
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.</p>
+								<p>Un dia como hoy se conmemora el nacimiento de Benito Juárez, nació un día 21 de marzo de 1806 en San Pablo Guelatao, Oaxaca, y sus humildes orígenes no fueron un impedimento para que se formara como abogado y se convirtiera en presidente del gobierno del país.</p>
 							</div>
 							<div class="news_post_button text-center trans_200">
 								<a href="news_post.html">Read More</a>
@@ -164,7 +164,7 @@
 							</div>
 							
 							<div class="latest_posts">
-								
+								  
 								<!-- Latest Post -->
 								<div class="latest_post">
 									<div class="latest_post_image">
