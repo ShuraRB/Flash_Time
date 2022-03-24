@@ -112,7 +112,7 @@
 
 							<div class="col-lg-4 order-lg-3 order-1">
 								<div class="event_image">
-									<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'event_1.jpg');?>" alt="https://unsplash.com/@theunsteady5">
+									<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'benito.jpg');?>" alt="">
 								</div>
 							</div>
 
@@ -127,22 +127,22 @@
 
 							<div class="col-lg-2 order-lg-1 order-2">
 								<div class="event_date d-flex flex-column align-items-center justify-content-center">
-									<div class="event_day">07</div>
-									<div class="event_month">January</div>
+									<div class="event_day">25</div>
+									<div class="event_month">Marzo</div>
 								</div>
 							</div>
 
 							<div class="col-lg-6 order-lg-2 order-3">
 								<div class="event_content">
-									<div class="event_name"><a class="trans_200" href="#">Open day in the Univesrsity campus</a></div>
-									<div class="event_location">Grand Central Park</div>
-									<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
+									<div class="event_name"><a class="trans_200" href="#">Inauguración de la Suprema Corte de Justicia.</a></div>
+									<div class="event_location">Por: Genaro Ariel</div>
+									<p>Un dia como hoy se conmemora la ignauguración de la Suprema Corte de Justicia de la Nación (SCJN) institucion de las más antiguas e importantes del estado mexicano, que ha sido una pieza clave de los distintos regímenes en el país, funcionando a veces como un contrapeso efectivo a los demás poderes.</p>
 								</div>
 							</div>
 
 							<div class="col-lg-4 order-lg-3 order-1">
 								<div class="event_image">
-									<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'event_2.jpg');?>" alt="https://unsplash.com/@claybanks1989">
+									<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'corte.jpg');?>" alt="">
 								</div>
 							</div>
 
@@ -157,22 +157,22 @@
 
 							<div class="col-lg-2 order-lg-1 order-2">
 								<div class="event_date d-flex flex-column align-items-center justify-content-center">
-									<div class="event_day">07</div>
-									<div class="event_month">January</div>
+									<div class="event_day">26</div>
+									<div class="event_month">Marzo</div>
 								</div>
 							</div>
 
 							<div class="col-lg-6 order-lg-2 order-3">
 								<div class="event_content">
-									<div class="event_name"><a class="trans_200" href="#">Student Graduation Ceremony</a></div>
-									<div class="event_location">Grand Central Park</div>
-									<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
+									<div class="event_name"><a class="trans_200" href="#">Promulgación del Plan de Guadalupe.</a></div>
+									<div class="event_location">Por: Genaro Ariel</div>
+									<p>Un dia como hoy se conmemora la promulgación del plan de guadalupe conformó por siete artículos o puntos. En ellos se menciona el desconocimiento de Huerta como primer mandatario; el desconocimiento del Poder Legislativo y Judicial, así como de los gobiernos de los estados alineados con la administración huertista.</p>
 								</div>
 							</div>
 
 							<div class="col-lg-4 order-lg-3 order-1">
 								<div class="event_image">
-									<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'event_3.jpg');?>" alt="https://unsplash.com/@juanmramosjr">
+									<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'plan.jpg');?>" alt="">
 								</div>
 							</div>
 
@@ -185,51 +185,64 @@
 		</div>
 	</div>
 
-	<!-- Personajes historicos-->
-	<div class="popular page_section">
-		<div class="container">
-			<div class="row">
+
+
+
+
+		<!-- Teachers -->
+		<div class="row">
 				<div class="col">
 					<div class="section_title text-center">
 						<h1>Personajes historicos</h1>
 					</div>
 				</div>
 			</div>
-
-			<div class="row course_boxes">
+		<div class="teachers page_section">
+		<div class="container">
+			<div class="row">
 				
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
+				<!-- Teacher -->
+				<div class="col-lg-4 teacher">
 					<div class="card">
-						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'course_1.jpg');?>" alt="https://unsplash.com/@kellybrito">
+						<div class="card_img">
+							<div class="card_plus trans_200 text-center"><a href="<?= route_to('post');?>">+</a></div>
+							<img class="card-img-top trans_200" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'hidalgo.jpg');?>" alt="">
+						</div>
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">A complete guide to design</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="<?= route_to('post');?>">Miguel Hidalgo</a></div>
+							<div class="card-text">1753-1811</div>
 						</div>
 					</div>
 				</div>
 
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
+				<!-- Teacher -->
+				<div class="col-lg-4 teacher">
 					<div class="card">
-						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'course_2.jpg');?>" alt="https://unsplash.com/@cikstefan">
+						<div class="card_img">
+							<div class="card_plus trans_200 text-center"><a href="#">+</a></div>
+							<img class="card-img-top trans_200" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'morelos.jpg');?>" alt="https://unsplash.com/@jcpeacock">
+						</div>
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">Beginners guide to HTML</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="#">José María Morelos</a></div>
+							<div class="card-text">1765-1815</div>
 						</div>
 					</div>
 				</div>
 
-				<!-- Popular Course Item -->
-				<div class="col-lg-4 course_box">
+				<!-- Teacher -->
+				<div class="col-lg-4 teacher">
 					<div class="card">
-						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'course_3.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
+						<div class="card_img">
+							<div class="card_plus trans_200 text-center"><a href="#">+</a></div>
+							<img class="card-img-top trans_200" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'olivier.jpg');?>" alt="https://unsplash.com/photos/n8jeOSxCRfQ">
+						</div>
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">Advanced Photoshop</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="#">Olivier Law</a></div>
+							<div class="card-text">1900-1937</div>
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</div>
