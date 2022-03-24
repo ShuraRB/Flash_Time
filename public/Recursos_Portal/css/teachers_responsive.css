@@ -51,15 +51,15 @@
 	}
 	.header_content
 	{
-		width: calc(100% - 219px);
+		width: calc(100% - 200px);
 	}
 	.main_nav_container
 	{
-		padding-right: 63px;
+		padding-right: 10px;
 	}
 	.header_side
 	{
-		width: 219px;
+		width: 200px;
 	}
 	.header_side span
 	{
@@ -67,8 +67,8 @@
 	}
 	.header_side img
 	{
-		width: 20px;
-		height: 20px;
+		width: 40px;
+		height: 40px;
 	}
 }
 

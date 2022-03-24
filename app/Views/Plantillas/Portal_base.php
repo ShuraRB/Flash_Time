@@ -12,8 +12,6 @@
 <link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_PLUGINS.'OwlCarousel2-2.2.1/owl.carousel.css');?>">
 <link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_PLUGINS.'OwlCarousel2-2.2.1/owl.theme.default.css');?>">
 <link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_PLUGINS.'OwlCarousel2-2.2.1/animate.css');?>">
-<link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_CSS.'main_styles.css');?>">
-<link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_CSS.'responsive.css');?>">
 <link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_CSS.'icon_responsive.css');?>">
 <!-- ============================================================== -->
     <!-- This page css -->
@@ -44,36 +42,34 @@
 						<li class="main_nav_item">
 							<a href="<?= route_to('inicio');?>">
 							<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'casa.png');?>" alt="inicio">
-							Inicio</a>
+							<div>Inicio</div></a>
 						</li>
 						<li class="main_nav_item">
 							<a href="<?= route_to('juego');?>">
 							<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick.png');?>" alt="juego">
-							Juego</a>
+							<div>Juego</div></a>
 						</li>
 						<li class="main_nav_item">
 							<a href="<?= route_to('personajes');?>">
-							<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'escudo.png');?>" alt="personajes">
-							Personajes historicos</a>
+							<center><img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'escudo.png');?>" alt="personajes"></center>
+							<div>Personajes <br>historicos</div></a>
 						</li>
 						<li class="main_nav_item">
 							<a href="<?= route_to('otro_lado');?>">
-							<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'2caras.png');?>" alt="un_día">
-							La otra cara de la historia</a>
+							<center><img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'2caras.png');?>" alt="un_día"></center>
+							<div>La otra cara <br>de la historia</div></a>
 						</li>
 						<li class="main_nav_item">
 							<a href="<?= route_to('un_día');?>">
-							<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'reloj.png');?>" alt="otro_lado">
-							Un día como hoy</a>
+							<center><img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'reloj.png');?>" alt="otro_lado"></center>
+							<div>Un día como hoy</div></a>
 						</li>
 					</ul>
 				</div>
 			</nav>
 		</div>
 		<div class="header_side d-flex flex-row justify-content-center align-items-center">
-			<!-- <a href="<?= route_to('juego');?>">
-			<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick.png');?>" alt="juego">
-			Juego<br><br></a> -->
+
 		</div>
 
 		<!-- Hamburger -->
