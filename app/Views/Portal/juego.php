@@ -21,7 +21,7 @@
 	</div>
 
 	<!-- Juegos -->
-
+	<div class="contact">
 		<!-- Aqui va el codigo del juego -->
 
 		<div class="container">
@@ -68,7 +68,7 @@
 				</div>
 			</div>
 		</div>
-		
+	</div>	
 	<!-- Footer -->
 
 <?= $this->endSection('contenido');?>  
