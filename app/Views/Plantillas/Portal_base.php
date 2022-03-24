@@ -40,7 +40,8 @@
 			<nav class="main_nav_container">
 				<div class="main_nav">
 					<ul class="main_nav_list">
-					<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'casa.png');?>" alt=""><li class="main_nav_item"><a href="<?= route_to('inicio');?>">Inicio<br><br></a></li>
+					<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'casa.png');?>" alt="">
+						<li class="main_nav_item"><a href="<?= route_to('inicio');?>">Inicio<br><br></a></li>
 						<li class="main_nav_item"><a href="<?= route_to('juego');?>">Juego<br><br></a></li>
 						<li class="main_nav_item"><a href="<?= route_to('personajes');?>">Personajes <br>historicos</a></li>
 						<li class="main_nav_item"><a href="<?= route_to('otro_lado');?>">La otra cara<br> de la historia</a></li>
