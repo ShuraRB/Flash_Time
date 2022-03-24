@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <title>Flash Time</title>
+<link rel="icon" href="<?= base_url(RECURSOS_PORTAL_IMAGES.'libro.svg');?>">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Course Project">
@@ -32,7 +33,7 @@
 			<div class="logo_container">
 				<div class="logo"">
 					<img class="icon_logo" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'libro.svg');?>" alt="">
-					<span>Flash Time</span>
+					<span>FlashTime</span>
 				</div>
 			</div>
 
@@ -40,19 +41,39 @@
 			<nav class="main_nav_container">
 				<div class="main_nav">
 					<ul class="main_nav_list">
-					<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'casa.png');?>" alt="inicio">
-						<li class="main_nav_item"><a href="<?= route_to('inicio');?>">Inicio<br><br></a></li>
-						<li class="main_nav_item"><a href="<?= route_to('juego');?>">Juego<br><br></a></li>
-						<li class="main_nav_item"><a href="<?= route_to('personajes');?>">Personajes <br>historicos</a></li>
-						<li class="main_nav_item"><a href="<?= route_to('otro_lado');?>">La otra cara<br> de la historia</a></li>
-						<li class="main_nav_item"><a href="<?= route_to('un_día');?>">Un día <br>como hoy</a></li>
+						<li class="main_nav_item">
+							<a href="<?= route_to('inicio');?>">
+							<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'casa.png');?>" alt="inicio">
+							Inicio</a>
+						</li>
+						<li class="main_nav_item">
+							<a href="<?= route_to('juego');?>">
+							<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick.png');?>" alt="juego">
+							Juego</a>
+						</li>
+						<li class="main_nav_item">
+							<a href="<?= route_to('personajes');?>">
+							<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'escudo.png');?>" alt="personajes">
+							Personajes historicos</a>
+						</li>
+						<li class="main_nav_item">
+							<a href="<?= route_to('otro_lado');?>">
+							<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'2caras.png');?>" alt="un_día">
+							La otra cara de la historia</a>
+						</li>
+						<li class="main_nav_item">
+							<a href="<?= route_to('un_día');?>">
+							<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'reloj.png');?>" alt="otro_lado">
+							Un día como hoy</a>
+						</li>
 					</ul>
 				</div>
 			</nav>
 		</div>
 		<div class="header_side d-flex flex-row justify-content-center align-items-center">
-			<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'phone-call.svg');?>" alt="">
-			<span>Flash Time</span>
+			<!-- <a href="<?= route_to('juego');?>">
+			<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick.png');?>" alt="juego">
+			Juego<br><br></a> -->
 		</div>
 
 		<!-- Hamburger -->
@@ -74,7 +95,11 @@
 		<div class="menu_inner menu_mm">
 			<div class="menu menu_mm">
 				<ul class="menu_list menu_mm">
-					<li class="menu_item menu_mm"><a href="<?= route_to('inicio');?>">Inicio</a></li>
+					<li class="menu_item menu_mm">
+						<a href="<?= route_to('inicio');?>">
+						<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'casa.png');?>" alt="inicio">
+						  Inicio</a>
+					</li>
 					<li class="menu_item menu_mm"><a href="<?php route_to('juego');?>">Juego</a></li>
 					<li class="menu_item menu_mm"><a href="<?= route_to('personajes');?>">Personajes Historicos</a></li>
 					<li class="menu_item menu_mm"><a href="<?= route_to('otro_lado');?>">El otro lado de la historia</a></li>

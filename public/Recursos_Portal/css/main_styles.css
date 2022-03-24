@@ -336,7 +336,7 @@ section
 .logo span
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 900;
 	color: #3a3a3a;
 	vertical-align: middle;
@@ -361,11 +361,11 @@ section
 .main_nav_item
 {
 	display: inline-block;
-	margin-right: 40px;
+	margin-right: 10px;
 }
 .main_nav_item:last-child
 {
-	margin-right: 0px;
+	margin-right: 10px;
 }
 .main_nav_item a
 {
@@ -397,8 +397,8 @@ section
 }
 .header_side img
 {
-	width: 29px;
-	height: 29px;
+	width: 40px;
+	height: 40px;
 }
 .header_side span
 {
@@ -1419,7 +1419,7 @@ input:last-of-type
 }
 .footer_content .logo_container
 {
-	padding-left: 0px;
+	padding-left: 10px;
 }
 .footer_content .logo span
 {
@@ -1429,7 +1429,7 @@ input:last-of-type
 {
 	margin-top: 24px;
 	margin-bottom: 0px;
-	padding-right: 20px;
+	padding-right: 0px;
 }
 .footer_column_title
 {
