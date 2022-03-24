@@ -96,7 +96,7 @@
 						<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'casa.png');?>" alt="inicio">
 						  Inicio</a>
 					</li>
-					<li class="menu_item menu_mm"><a href="<?php route_to('juego');?>">Juego</a></li>
+					<li class="menu_item menu_mm"><a href="<?= route_to('Juegos');?>">Juegos</a></li>
 					<li class="menu_item menu_mm"><a href="<?= route_to('personajes');?>">Personajes Historicos</a></li>
 					<li class="menu_item menu_mm"><a href="<?= route_to('otro_lado');?>">El otro lado de la historia</a></li>
 					<li class="menu_item menu_mm"><a href="<?= route_to('un_día');?>">Un día como hoy</a></li>
@@ -155,11 +155,11 @@
 						<div class="footer_column_title">Menu</div>
 						<div class="footer_column_content">
 							<ul>
-								<li class="footer_list_item"><a href="#">Inicio</a></li>
-								<li class="footer_list_item"><a href="#">Juego</a></li>
-								<li class="footer_list_item"><a href="courses.html">Personajes Historicos</a></li>
-								<li class="footer_list_item"><a href="news.html">El otro lado de la historia</a></li>
-								<li class="footer_list_item"><a href="contact.html">Un día como hoy</a></li>
+								<li class="footer_list_item"><a href="<?= route_to('inicio');?>">Inicio</a></li>
+								<li class="footer_list_item"><a href="<?= route_to('Juegos');?>">Juegos</a></li>
+								<li class="footer_list_item"><a href="<?= route_to('personajes');?>">Personajes Historicos</a></li>
+								<li class="footer_list_item"><a href="<?= route_to('otro_lado');?>">El otro lado de la historia</a></li>
+								<li class="footer_list_item"><a href="<?= route_to('un_día');?>">Un día como hoy</a></li>
 							</ul>
 						</div>
 					</div>
