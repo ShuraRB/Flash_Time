@@ -24,9 +24,13 @@
 	
 	<!-- Aqui va el codigo del juego -->
 
-	<iframe id="playframe" src="https://es.educaplay.com/juego/1483500-crucigrama_historia_universal.html" frameborder="0" scrolling="no" width="100%" height="576"></iframe>
-
-	<!-- Footer -->
+	<iframe id="playframe" src="https://www.testeando.mx/Testeador/?idT=zhjkgucy" frameborder="0" scrolling="no" width="100%" height="576"></iframe>
+		<hr>
+	<iframe id="playframe" src="https://www.testeando.mx/Testeador/?idT=nugguyet" frameborder="0" scrolling="no" width="100%" height="576"></iframe>
+		<hr>
+	<iframe id="playframe" src="https://www.testeando.mx/Testeador/?idT=xfmnjwka" frameborder="0" scrolling="no" width="100%" height="576"></iframe>
+	
+		<!-- Footer -->
 
 <?= $this->endSection('contenido');?>  
 
