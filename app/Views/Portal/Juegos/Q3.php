@@ -23,17 +23,16 @@
 	<!-- Juegos -->
 	
 	<!-- Aqui va el codigo del juego -->
-
 	<br>
 	<br>
-	<iframe id="playframe" src="https://www.digipuzzle.net/digipuzzle/wordsearch/puzzles/kids_greeks_es.htm?language=spanish" frameborder="0" scrolling="no" width="100%" height="576"></iframe>
+	<iframe id="playframe" src="https://www.testeando.mx/Testeador/?idT=fepanqot" frameborder="0" scrolling="no" width="100%" height="576"></iframe>
 		&nbsp;
-	<iframe id="playframe" src="https://www.digipuzzle.net/digipuzzle/wordsearch/puzzles/kids_romans_es.htm?language=spanish" frameborder="0" scrolling="no" width="100%" height="576"></iframe>
-	<br></br>
-	<br>
-	
-	
-		<!-- Footer -->
+	<iframe id="playframe" src="https://www.testeando.mx/Testeador/?idT=qxkocgnb" frameborder="0" scrolling="no" width="100%" height="576"></iframe>
+		&nbsp;
+	<iframe id="playframe" src="https://www.testeando.mx/Testeador/?idT=silvzwlj" frameborder="0" scrolling="no" width="100%" height="576"></iframe>
+		&nbsp;
+		
+	<!-- Footer -->
 
 <?= $this->endSection('contenido');?>  
 

@@ -46,9 +46,9 @@
 							<div>Inicio</div></a>
 						</li>
 						<li class="main_nav_item">
-							<a href="<?= route_to('juego');?>">
+							<a href="<?= route_to('Juegos');?>">
 							<img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick.png');?>" alt="juego">
-							<div>Juego</div></a>
+							<div>Juegos</div></a>
 						</li>
 						<li class="main_nav_item">
 							<a href="<?= route_to('personajes');?>">
@@ -117,6 +117,13 @@
 						<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'reloj.png');?>" alt="un_dia">
 						Un día como hoy</a>
 					</li>
+<<<<<<< HEAD
+=======
+					<li class="menu_item menu_mm"><a href="<?= route_to('Juegos');?>">Juegos</a></li>
+					<li class="menu_item menu_mm"><a href="<?= route_to('personajes');?>">Personajes Historicos</a></li>
+					<li class="menu_item menu_mm"><a href="<?= route_to('otro_lado');?>">El otro lado de la historia</a></li>
+					<li class="menu_item menu_mm"><a href="<?= route_to('un_día');?>">Un día como hoy</a></li>
+>>>>>>> feaaac186c80911ff12287f8f61564cf5c8c6530
 			
 				</ul>
 			</div>
@@ -147,16 +154,21 @@
 						<!-- Logo -->
 						<div class="logo_container">
 							<div class="logo">
+<<<<<<< HEAD
 								<a href="<?= route_to('inicio');?>">
 								<img class="icon_logo" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'libro.svg');?>" alt="">
 								<span>Flash Time</span></a>
+=======
+								<img class="icon_logo" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'libro-b.png');?>" alt="">
+								<span>Flash Time</span>
+>>>>>>> feaaac186c80911ff12287f8f61564cf5c8c6530
 							</div>
 						</div>
 
 						<p class="footer_about_text">
-						En nuestra página encontraras articulos, videos, juegos, que llamaran tu atención 
-								y te ayudaran a aprender historia. Te haran olvidar los tiempo en lo que pensabas
-								que aprender historia era aburrido.</p>
+							En nuestra página encontraras articulos, videos, juegos, que llamaran tu atención 
+							y te ayudaran a aprender historia. Te haran olvidar los tiempo en lo que pensabas
+							que aprender historia era aburrido.</p>
 
 					</div>
 
@@ -173,6 +185,7 @@
 						<div class="footer_column_title">Menu</div>
 						<div class="footer_column_content">
 							<ul>
+<<<<<<< HEAD
 								<li class="footer_list_item">
 									<a href="<?= route_to('inicio');?>">
 									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'casa.png');?>" alt="inicio">
@@ -198,6 +211,13 @@
 									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'reloj.png');?>" alt="un_dia">
 									Un día como hoy</a>
 								</li>
+=======
+								<li class="footer_list_item"><a href="<?= route_to('inicio');?>">Inicio</a></li>
+								<li class="footer_list_item"><a href="<?= route_to('Juegos');?>">Juegos</a></li>
+								<li class="footer_list_item"><a href="<?= route_to('personajes');?>">Personajes Historicos</a></li>
+								<li class="footer_list_item"><a href="<?= route_to('otro_lado');?>">El otro lado de la historia</a></li>
+								<li class="footer_list_item"><a href="<?= route_to('un_día');?>">Un día como hoy</a></li>
+>>>>>>> feaaac186c80911ff12287f8f61564cf5c8c6530
 							</ul>
 						</div>
 					</div>

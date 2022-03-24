@@ -9,3 +9,14 @@ CRITICAL - 2022-03-24 01:42:42 --> Invalid file: Portal/juego/Sopa.php
 #7 D:\Programas\XAMPP\htdocs\Flash_Time\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #8 D:\Programas\XAMPP\htdocs\Flash_Time\system\Commands\Server\rewrite.php(43): require_once('D:\\Programas\\XA...')
 #9 {main}
+CRITICAL - 2022-03-24 01:38:28 --> Invalid file: Portal/un_dia_como_hoy/un_día.php
+#0 C:\xampp\htdocs\Flash_Time\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Portal/un_dia_c...')
+#1 C:\xampp\htdocs\Flash_Time\system\Common.php(1089): CodeIgniter\View\View->render('Portal/un_dia_c...', Array, true)
+#2 C:\xampp\htdocs\Flash_Time\app\Controllers\Portal\Un_día.php(29): view('Portal/un_dia_c...', Array)
+#3 C:\xampp\htdocs\Flash_Time\app\Controllers\Portal\Un_día.php(14): App\Controllers\Portal\Un_día->crear_vista('Portal/un_dia_c...', Array)
+#4 C:\xampp\htdocs\Flash_Time\system\CodeIgniter.php(825): App\Controllers\Portal\Un_día->index()
+#5 C:\xampp\htdocs\Flash_Time\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portal\Un_día))
+#6 C:\xampp\htdocs\Flash_Time\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Flash_Time\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Flash_Time\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
