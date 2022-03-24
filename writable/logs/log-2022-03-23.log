@@ -1,0 +1,34 @@
+CRITICAL - 2022-03-23 20:11:54 --> Invalid file: Portal/el_otro_lado_de_la_historia/otro_lado__1.php
+#0 C:\Users\Alejandro\Desktop\CI4\Historia\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Portal/el_otro_...')
+#1 C:\Users\Alejandro\Desktop\CI4\Historia\system\Common.php(1089): CodeIgniter\View\View->render('Portal/el_otro_...', Array, true)
+#2 C:\Users\Alejandro\Desktop\CI4\Historia\app\Controllers\Portal\El_otro_lado_de_la_historia\Otro_lado_1.php(29): view('Portal/el_otro_...', Array)
+#3 C:\Users\Alejandro\Desktop\CI4\Historia\app\Controllers\Portal\El_otro_lado_de_la_historia\Otro_lado_1.php(14): App\Controllers\Portal\El_otro_lado_de_la_historia\Otro_lado_1->crear_vista('Portal/el_otro_...', Array)
+#4 C:\Users\Alejandro\Desktop\CI4\Historia\system\CodeIgniter.php(825): App\Controllers\Portal\El_otro_lado_de_la_historia\Otro_lado_1->index()
+#5 C:\Users\Alejandro\Desktop\CI4\Historia\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portal\El_otro_lado_de_la_historia\Otro_lado_1))
+#6 C:\Users\Alejandro\Desktop\CI4\Historia\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Alejandro\Desktop\CI4\Historia\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Alejandro\Desktop\CI4\Historia\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Alejan...')
+#9 {main}
+CRITICAL - 2022-03-23 20:43:49 --> Invalid file: Portal/juego_1.php
+#0 C:\Users\Alejandro\Desktop\CI4\Historia\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Portal/juego_1....')
+#1 C:\Users\Alejandro\Desktop\CI4\Historia\system\Common.php(1089): CodeIgniter\View\View->render('Portal/juego_1', Array, true)
+#2 C:\Users\Alejandro\Desktop\CI4\Historia\app\Controllers\Portal\Juego\Juego_1.php(29): view('Portal/juego_1', Array)
+#3 C:\Users\Alejandro\Desktop\CI4\Historia\app\Controllers\Portal\Juego\Juego_1.php(14): App\Controllers\Portal\Juego\Juego_1->crear_vista('Portal/juego_1', Array)
+#4 C:\Users\Alejandro\Desktop\CI4\Historia\system\CodeIgniter.php(825): App\Controllers\Portal\Juego\Juego_1->index()
+#5 C:\Users\Alejandro\Desktop\CI4\Historia\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portal\Juego\Juego_1))
+#6 C:\Users\Alejandro\Desktop\CI4\Historia\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Alejandro\Desktop\CI4\Historia\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Alejandro\Desktop\CI4\Historia\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Alejan...')
+#9 {main}
+CRITICAL - 2022-03-23 20:55:38 --> Invalid file: Plantillas/Portal_base_otro_lado.php
+#0 C:\Users\Alejandro\Desktop\CI4\Historia\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Plantillas/Port...')
+#1 C:\Users\Alejandro\Desktop\CI4\Historia\system\View\View.php(226): CodeIgniter\View\View->render('Plantillas/Port...', Array, true)
+#2 C:\Users\Alejandro\Desktop\CI4\Historia\system\Common.php(1089): CodeIgniter\View\View->render('Portal/el_otro_...', Array, true)
+#3 C:\Users\Alejandro\Desktop\CI4\Historia\app\Controllers\Portal\El_otro_lado_de_la_historia\Otro_lado_1.php(29): view('Portal/el_otro_...', Array)
+#4 C:\Users\Alejandro\Desktop\CI4\Historia\app\Controllers\Portal\El_otro_lado_de_la_historia\Otro_lado_1.php(14): App\Controllers\Portal\El_otro_lado_de_la_historia\Otro_lado_1->crear_vista('Portal/el_otro_...', Array)
+#5 C:\Users\Alejandro\Desktop\CI4\Historia\system\CodeIgniter.php(825): App\Controllers\Portal\El_otro_lado_de_la_historia\Otro_lado_1->index()
+#6 C:\Users\Alejandro\Desktop\CI4\Historia\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portal\El_otro_lado_de_la_historia\Otro_lado_1))
+#7 C:\Users\Alejandro\Desktop\CI4\Historia\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Alejandro\Desktop\CI4\Historia\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Alejandro\Desktop\CI4\Historia\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Alejan...')
+#10 {main}
