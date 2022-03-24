@@ -136,9 +136,9 @@
 						</div>
 
 						<p class="footer_about_text">
-						En nuestra página encontraras articulos, videos, juegos, que llamaran tu atención 
-								y te ayudaran a aprender historia. Te haran olvidar los tiempo en lo que pensabas
-								que aprender historia era aburrido.</p>
+							En nuestra página encontraras articulos, videos, juegos, que llamaran tu atención 
+							y te ayudaran a aprender historia. Te haran olvidar los tiempo en lo que pensabas
+							que aprender historia era aburrido.</p>
 
 					</div>
 
