@@ -205,11 +205,11 @@
 				<div class="col-lg-4 teacher">
 					<div class="card">
 						<div class="card_img">
-							<div class="card_plus trans_200 text-center"><a href="<?= route_to('post');?>">+</a></div>
+							<div class="card_plus trans_200 text-center"><a href="<?= route_to('hidalgo');?>">+</a></div>
 							<img class="card-img-top trans_200" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'hidalgo.jpg');?>" alt="">
 						</div>
 						<div class="card-body text-center">
-							<div class="card-title"><a href="<?= route_to('post');?>">Miguel Hidalgo</a></div>
+							<div class="card-title"><a href="<?= route_to('hidalgo');?>">Miguel Hidalgo</a></div>
 							<div class="card-text">1753-1811</div>
 						</div>
 					</div>
@@ -219,11 +219,11 @@
 				<div class="col-lg-4 teacher">
 					<div class="card">
 						<div class="card_img">
-							<div class="card_plus trans_200 text-center"><a href="#">+</a></div>
+							<div class="card_plus trans_200 text-center"><a href="<?= route_to('morelos');?>">+</a></div>
 							<img class="card-img-top trans_200" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'morelos.jpg');?>" alt="https://unsplash.com/@jcpeacock">
 						</div>
 						<div class="card-body text-center">
-							<div class="card-title"><a href="#">José María Morelos</a></div>
+							<div class="card-title"><a href="<?= route_to('morelos');?>">José María Morelos</a></div>
 							<div class="card-text">1765-1815</div>
 						</div>
 					</div>
@@ -233,11 +233,11 @@
 				<div class="col-lg-4 teacher">
 					<div class="card">
 						<div class="card_img">
-							<div class="card_plus trans_200 text-center"><a href="#">+</a></div>
+							<div class="card_plus trans_200 text-center"><a href="<?= route_to('law');?>">+</a></div>
 							<img class="card-img-top trans_200" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'olivier.jpg');?>" alt="https://unsplash.com/photos/n8jeOSxCRfQ">
 						</div>
 						<div class="card-body text-center">
-							<div class="card-title"><a href="#">Olivier Law</a></div>
+							<div class="card-title"><a href="<a href="<?= route_to('law');?>">Olivier Law</a></div>
 							<div class="card-text">1900-1937</div>
 						</div>
 					</div>

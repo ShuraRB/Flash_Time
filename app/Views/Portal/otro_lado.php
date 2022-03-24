@@ -197,13 +197,13 @@
 
 					<!-- Page Nav -->
 
-					<div class="news_page_nav">
+					<!-- <div class="news_page_nav">
 						<ul>
 							<li class="active text-center trans_200"><a href="#">01</a></li>
 							<li class="text-center trans_200"><a href="#">02</a></li>
 							<li class="text-center trans_200"><a href="#">03</a></li>
 						</ul>
-					</div>
+					</div> -->
 
 				</div>
 
