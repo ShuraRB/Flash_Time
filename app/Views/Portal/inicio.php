@@ -104,9 +104,9 @@
 
 							<div class="col-lg-6 order-lg-2 order-3">
 								<div class="event_content">
-									<div class="event_name"><a class="trans_200" href="#">Articulo 1</a></div>
-									<div class="event_location">Grand Central Park</div>
-									<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
+									<div class="event_name"><a class="trans_200" href="#">Natalicio de Benito Juárez.</a></div>
+									<div class="event_location">Por: Genaro Ariel</div>
+									<p>Un dia como hoy se conmemora el nacimiento de Benito Juárez, nació un día 21 de marzo de 1806 en San Pablo Guelatao, Oaxaca, y sus humildes orígenes no fueron un impedimento para que se formara como abogado y se convirtiera en presidente del gobierno del país.</p>
 								</div>
 							</div>
 
