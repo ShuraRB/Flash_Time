@@ -23,14 +23,14 @@
 	<!-- Juegos -->
 	
 	<!-- Aqui va el codigo del juego -->
-
-	
+	<br>
+	<br>
 	<iframe id="playframe" src="https://www.testeando.mx/Testeador/?idT=tjtwavkp" frameborder="0" scrolling="no" width="100%" height="576"></iframe>
-		<hr>
+		&nbsp;
 	<iframe id="playframe" src="https://www.testeando.mx/Testeador/?idT=pxzbwjqn" frameborder="0" scrolling="no" width="100%" height="576"></iframe>
-		<hr>
+		&nbsp;
 	<iframe id="playframe" src="https://www.testeando.mx/Testeador/?idT=jzcmqmca" frameborder="0" scrolling="no" width="100%" height="576"></iframe>
-		
+		&nbsp;
 		<!-- Footer -->
 
 <?= $this->endSection('contenido');?>  

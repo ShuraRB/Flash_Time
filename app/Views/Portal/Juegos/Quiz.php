@@ -4,6 +4,8 @@
 <?= $this->section("css")?>
 <link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_CSS.'contact_styles.css');?>">
 <link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_CSS.'contact_responsive.css');?>">
+<link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_CSS.'main_styles.css');?>">
+<link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_CSS.'responsive.css');?>">
 <?= $this->endSection('css');?>   
 
 <!-- CONTENIDO-->
@@ -22,7 +24,6 @@
 
 	<!-- Juegos -->
 
-	<div class="contact">
 		<!-- Aqui va el codigo del juego -->
 
 		<div class="container">
@@ -69,10 +70,10 @@
 				</div>
 			</div>
 		</div>
+		<br></br>
+		<br></br>
 
-	</div>
-
-	<!-- Footer -->
+ 		<!-- Footer -->
 
 <?= $this->endSection('contenido');?>  
 
