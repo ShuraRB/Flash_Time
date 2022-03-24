@@ -39,8 +39,8 @@
 					<div class="card">
 						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'crucigrama.png');?>" alt="https://unsplash.com/@kellybrito">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">A complete guide to design</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="courses.html">Crucigramas</a></div>
+							<!-- <div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div> -->
 						</div>
 					</div>
 				</div>
@@ -50,8 +50,8 @@
 					<div class="card">
 						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'encuesta.png');?>" alt="https://unsplash.com/@cikstefan">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">Beginners guide to HTML</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="courses.html">Quiz Educativos</a></div>
+							<!-- <div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div> -->
 						</div>
 					</div>
 				</div>
@@ -59,10 +59,10 @@
 				<!-- Popular Course Item -->
 				<div class="col-lg-4 course_box">
 					<div class="card">
-						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'sopa.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
+						<img class="card-img-top" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'sopa.png');?>" alt="https://unsplash.com/@dsmacinnes">
 						<div class="card-body text-center">
-							<div class="card-title"><a href="courses.html">Advanced Photoshop</a></div>
-							<div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div>
+							<div class="card-title"><a href="courses.html">Sopa de letras</a></div>
+							<!-- <div class="card-text">Adobe Guide, Layes, Smart Objects etc...</div> -->
 						</div>
 					</div>
 				</div>

@@ -1,0 +1,11 @@
+CRITICAL - 2022-03-24 01:42:42 --> Invalid file: Portal/juego/Sopa.php
+#0 D:\Programas\XAMPP\htdocs\Flash_Time\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Portal/juego/So...')
+#1 D:\Programas\XAMPP\htdocs\Flash_Time\system\Common.php(1089): CodeIgniter\View\View->render('Portal/juego/So...', Array, true)
+#2 D:\Programas\XAMPP\htdocs\Flash_Time\app\Controllers\Portal\Juegos\Sopa.php(29): view('Portal/juego/So...', Array)
+#3 D:\Programas\XAMPP\htdocs\Flash_Time\app\Controllers\Portal\Juegos\Sopa.php(14): App\Controllers\Portal\Juegos\Sopa->crear_vista('Portal/juego/So...', Array)
+#4 D:\Programas\XAMPP\htdocs\Flash_Time\system\CodeIgniter.php(825): App\Controllers\Portal\Juegos\Sopa->index()
+#5 D:\Programas\XAMPP\htdocs\Flash_Time\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portal\Juegos\Sopa))
+#6 D:\Programas\XAMPP\htdocs\Flash_Time\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Programas\XAMPP\htdocs\Flash_Time\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Programas\XAMPP\htdocs\Flash_Time\system\Commands\Server\rewrite.php(43): require_once('D:\\Programas\\XA...')
+#9 {main}
