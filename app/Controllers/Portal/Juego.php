@@ -11,14 +11,14 @@ class Juego extends BaseController
     } //Cierra __construct
     public function index()
     {
-        return $this->Crear_vista('Portal/juego', $this->cargar_datos());
+        return $this->Crear_vista('Portal/Juego', $this->cargar_datos());
     }//cierra el index
 
     private function cargar_datos()//Declaración arreglo de 
     {
         $datos = array();
         //
-        $datos['Nombre_pagina'] = 'juego';
+        $datos['Nombre_pagina'] = 'Juego';
 
         return $datos;
     }//Final de cargar datos
