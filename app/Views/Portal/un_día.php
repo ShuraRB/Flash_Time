@@ -58,7 +58,7 @@
 								<p>Un dia como hoy se conmemora el nacimiento de Benito Juárez, nació un día 21 de marzo de 1806 en San Pablo Guelatao, Oaxaca, y sus humildes orígenes no fueron un impedimento para que se formara como abogado y se convirtiera en presidente del gobierno del país.</p>
 							</div>
 							<div class="news_post_button text-center trans_200">
-								<a href="news_post.html">Read More</a>
+								<a href="news_post.html">Leer más</a>
 							</div>
 						</div>
 
@@ -70,26 +70,26 @@
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>18</div>
-										<div>dec</div>
+										<div>25</div>
+										<div>Marzo</div>
 									</div>
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">Our new courses just for you?</a>
+										<a href="news_post.html">Inauguración de la Suprema Corte de Justicia.</a>
 									</div>
 									<div class="news_post_meta">
-										<span class="news_post_author"><a href="#">By Christian Smith</a></span>
-										<span>|</span>
-										<span class="news_post_comments"><a href="#">3 Comments</a></span>
+										<span class="news_post_author"><a href="#">Subido por Genaro</a></span>
+										
+										
 									</div>
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.</p>
+								<p>Un dia como hoy se conmemora la ignauguración de la Suprema Corte de Justicia de la Nación (SCJN) institucion de las más antiguas e importantes del estado mexicano, que ha sido una pieza clave de los distintos regímenes en el país, funcionando a veces como un contrapeso efectivo a los demás poderes.</p>
 							</div>
 							<div class="news_post_button text-center trans_200">
-								<a href="news_post.html">Read More</a>
+								<a href="news_post.html">Leer más</a>
 							</div>
 						</div>
 
@@ -101,26 +101,26 @@
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>18</div>
-										<div>dec</div>
+										<div>26</div>
+										<div>Marzo</div>
 									</div>
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">Why take our graduate program??</a>
+										<a href="news_post.html">Promulgación del Plan de Guadalupe.</a>
 									</div>
 									<div class="news_post_meta">
-										<span class="news_post_author"><a href="#">By Christian Smith</a></span>
-										<span>|</span>
-										<span class="news_post_comments"><a href="#">3 Comments</a></span>
+										<span class="news_post_author"><a href="#">Subido por Genaro</a></span>
+										
+
 									</div>
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies.</p>
+								<p>Un dia como hoy se conmemora la promulgación del plan de guadalupe conformó por siete artículos o puntos. En ellos se menciona el desconocimiento de Huerta como primer mandatario; el desconocimiento del Poder Legislativo y Judicial, así como de los gobiernos de los estados alineados con la administración huertista.</p>
 							</div>
 							<div class="news_post_button text-center trans_200">
-								<a href="news_post.html">Read More</a>
+								<a href="news_post.html">Leer más</a>
 							</div>
 						</div>
 					</div>
@@ -145,12 +145,12 @@
 						<!-- Archives -->
 						<div class="sidebar_section">
 							<div class="sidebar_section_title">
-								<h3>Archives</h3>
+								<h3>Articulos Completos</h3>
 							</div>
 							<ul class="sidebar_list">
-								<li class="sidebar_list_item"><a href="#">Design Courses</a></li>
-								<li class="sidebar_list_item"><a href="#">All you need to know</a></li>
-								<li class="sidebar_list_item"><a href="#">Uncategorized</a></li>
+								<li class="sidebar_list_item"><a href="#">Natalicio Benito Juárez</a></li>
+								<li class="sidebar_list_item"><a href="#">Inauguración de la Suprema Corte de Justicia</a></li>
+								<li class="sidebar_list_item"><a href="#">Promulgación del plan de guadalupe</a></li>
 								<li class="sidebar_list_item"><a href="#">About Our Departments</a></li>
 								<li class="sidebar_list_item"><a href="#">Choose the right course</a></li>
 							</ul>
