@@ -56,30 +56,28 @@
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p> En 1887, bajo la presidencia del Máximo Tribunal del insigne jurista Ignacio L. Vallarta, se reiteró la necesidad de apoyar la labor jurisdiccional mediante una biblioteca, 
-									con lo que, a partir de entonces se inició el desarrollo de la colección bibliohemerográfica.
-									Con la inauguración del edificio sede de la Suprema Corte de Justicia de la Nación en 1941, 
-									se mantuvo la idea de la importancia de contar con un espacio apropiado para instalar una biblioteca
-									que garantizara el resguardo y desarrollo de sus colecciones, acervo que años más tarde se distinguió
-									con el nombre de la señora Ministra María Cristina Salmorán de Tamayo que, si bien en un inicio estaba dedicada
-									a prestar sus servicios exclusivamente a los señores Ministros y al personal de sus ponencias, paulatinamente
-									abrió sus puertas al público en general.</p>
+								<p> presidente Lázaro Cárdenas del Río el 7 de junio de 1938 con la finalidad de explorar y 
+									explotar los recursos energéticos como gas y petróleo en suelo mexicano. Pemex es la mayor empresa de México,
+									 incluso con operaciones en el extranjero. Pemex tiene propiedades valoradas en más de 415 billones de dólares. 
+									 Es la segunda empresa más grande de América Latina según sus ganancias anuales, solo superada por Petrobras. 
+									 La mayoría de las acciones de Pemex no son públicas y se encuentran bajo control del gobierno mexicano. 
+									 Pemex emplea más de 130.000 personas entre sus diferentes empresas filiales y actividades económicas.</p>
 							</div>
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Corte.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'refineria.jpg');?>">
 							</div>
 							<div class="news_post_quote">
-								<p class="news_post_quote_text"> Mural de Benito Juarez expuesto en la alameda de Oaxaca central.</p>
+								<p class="news_post_quote_text"> PEMEX es la empresa petrolera de los Estados Unidos Mexicanos.</p>
 							</div>
 
-							<p class="news_post_text" style="margin-top: 59px;">Con la reforma constitucional de 1994, que reconfiguró al Máximo Tribunal del país,
-							 a partir de 1995, la Biblioteca Central quedó incorporada al Centro de Documentación y Análisis de la Suprema Corte de Justicia de la Nación, 
-							 según lo dispuesto en el artículo 11, fracción XIX, de la Ley Orgánica del Poder Judicial de la Federación.
-							 Los servicios de la Biblioteca Central en conjunción con la demanda de información bibliohemerográfica por los usuarios, dieron paso a la integración de un sistema nacional 
-							 de bibliotecas especializadas en Derecho y asignaturas afines </p>
+							<p class="news_post_text" style="margin-top: 59px;">Los impuestos sobre las actividades de Pemex representan al menos
+							 un tercio de todos los impuestos recolectados por el fisco mexicano. La estatal paga sobre el 60% de sus ganancias en 
+							 impuestos y regalías. México exporta petróleo crudo, pero en cambio, sigue necesitando las importaciones de combustibles
+							  como la gasolina, que son más costosas. </p>
 
                                     <h3>Video Explicativo:</h3>
-									<iframe width="640" height="360" src="https://www.youtube.com/embed/tsQMOR2y7fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="640" height="360" src="https://www.youtube.com/embed/ed6U0dpX4bw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<!--<iframe width="640" height="360" src="https://www.youtube.com/embed/tsQMOR2y7fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 							<!-- Fin de la publicación -->
 						</div>
 					</div>
@@ -118,7 +116,7 @@
 									<div class="latest_post_image">
 										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'defensa.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
 									</div>
-									<div class="latest_post_title"><a href="news_post.html">Heroica defensa del puerto de Veracruz</a></div>
+									<div class="latest_post_title"><a href="<?= route_to('public_four');?>">Heroica defensa del puerto de Veracruz</a></div>
 									<div class="latest_post_meta">
 										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
 										
@@ -130,7 +128,7 @@
 									<div class="latest_post_image">
 										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Queretaro.jpg');?>" alt="https://unsplash.com/@erothermel">
 									</div>
-									<div class="latest_post_title"><a href="news_post.html">Toma de Querétaro</a></div>
+									<div class="latest_post_title"><a href="<?= route_to('public_five');?>">Toma de Querétaro</a></div>
 									<div class="latest_post_meta">
 										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
 										
@@ -142,7 +140,7 @@
 									<div class="latest_post_image">
 										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Pemex.jpg');?>" alt="https://unsplash.com/@element5digital">
 									</div>
-									<div class="latest_post_title"><a href="news_post.html">Fundación de Petróleos Mexicanos PEMEX</a></div>
+									<div class="latest_post_title"><a href="<?= route_to('public_six');?>">Fundación de Petróleos Mexicanos PEMEX</a></div>
 									<div class="latest_post_meta">
 										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
 										
