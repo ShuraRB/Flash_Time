@@ -12,7 +12,7 @@
 	<!-- Home -->
 	<div class="home">
 		<div class="home_background_container prlx_parent">
-			<div class="home_background prlx" style="background-image:url(<?= base_url(RECURSOS_PORTAL_IMAGES.'news_background.jpg');?>"></div>
+			<div class="home_background prlx" style="background-image:url(<?= base_url(RECURSOS_PORTAL_IMAGES.'dia.jpg');?>"></div>
 		</div>
 		<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 			<div class="hero_slide_content text-center">
@@ -34,7 +34,7 @@
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Benito.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Benito.jpg');?>" alt="">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">

@@ -18,7 +18,7 @@
 				
 				<!-- Hero Slide -->
 				<div class="hero_slide">
-					<div class="hero_slide_background" style="background-image:url(<?= base_url(RECURSOS_PORTAL_IMAGES.'contact_background.jpg');?>)"></div>
+					<div class="hero_slide_background" style="background-image:url(<?= base_url(RECURSOS_PORTAL_IMAGES.'juego.jpg');?>)"></div>
 					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 						<div class="hero_slide_content text-center">
 							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Juega y <span>aprende</span> hoy!</h1>
@@ -220,7 +220,7 @@
 					<div class="card">
 						<div class="card_img">
 							<div class="card_plus trans_200 text-center"><a href="<?= route_to('morelos');?>">+</a></div>
-							<img class="card-img-top trans_200" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'morelos.jpg');?>" alt="https://unsplash.com/@jcpeacock">
+							<img class="card-img-top trans_200" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'morelos.jpg');?>" alt="">
 						</div>
 						<div class="card-body text-center">
 							<div class="card-title"><a href="<?= route_to('morelos');?>">José María Morelos</a></div>
@@ -234,7 +234,7 @@
 					<div class="card">
 						<div class="card_img">
 							<div class="card_plus trans_200 text-center"><a href="<?= route_to('law');?>">+</a></div>
-							<img class="card-img-top trans_200" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'olivier.jpg');?>" alt="https://unsplash.com/photos/n8jeOSxCRfQ">
+							<img class="card-img-top trans_200" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'olivier.jpg');?>" alt="">
 						</div>
 						<div class="card-body text-center">
 							<div class="card-title"><a href="<a href="<?= route_to('law');?>">Olivier Law</a></div>
