@@ -36,7 +36,7 @@
 						<!-- Nueva publicación -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Benito.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'suprema.jpg');?>">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -47,7 +47,7 @@
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">Natalicio de Benito Juárez</a>
+										<a href="news_post.html">Inauguración de la Suprema Corte de Justicia.</a>
 									</div>
 									<div class="news_post_meta">
 										<span class="news_post_author">Subido por: Genaro</a></span>
@@ -56,28 +56,30 @@
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p> Benito Juárez García nació el 21 de marzo de 1806 en San Pablo Guelatao, Oaxaca. 
-                                    Tuvo una niñez precaria y durante años estudió por sí mismo, hasta que llegó a la ciudad de Oaxaca, 
-                                    donde ingresó al seminario; ahí concluyó estudios de Latín, Filosofía y Teología, fue un gobernante 
-                                    que fundó Escuelas Normales, reconstruyo el Palacio de Gobierno y dejó excedentes en le hacienda estatal, 
-                                    sus inicios en la política datan del año 1831, cuando se desempeñó como Regidor del Ayuntamiento de Oaxaca. 
-                                    En 1833 fue elegido diputado y, en el año 1847, asumió como gobernador de Oaxaca.
- </p>
+								<p> En 1887, bajo la presidencia del Máximo Tribunal del insigne jurista Ignacio L. Vallarta, se reiteró la necesidad de apoyar la labor jurisdiccional mediante una biblioteca, 
+									con lo que, a partir de entonces se inició el desarrollo de la colección bibliohemerográfica.
+									Con la inauguración del edificio sede de la Suprema Corte de Justicia de la Nación en 1941, 
+									se mantuvo la idea de la importancia de contar con un espacio apropiado para instalar una biblioteca
+									que garantizara el resguardo y desarrollo de sus colecciones, acervo que años más tarde se distinguió
+									con el nombre de la señora Ministra María Cristina Salmorán de Tamayo que, si bien en un inicio estaba dedicada
+									a prestar sus servicios exclusivamente a los señores Ministros y al personal de sus ponencias, paulatinamente
+									abrió sus puertas al público en general.</p>
 							</div>
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Mural.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Corte.jpg');?>">
 							</div>
 							<div class="news_post_quote">
 								<p class="news_post_quote_text"> Mural de Benito Juarez expuesto en la alameda de Oaxaca central.</p>
 							</div>
 
-							<p class="news_post_text" style="margin-top: 59px;">En 1857 fue electo presidente de la Suprema Corte de Justicia, labor que desempeñó hasta diciembre de ese año, 
-                            cuando se hizo cargo de la Presidencia mexicana. Es el primer y único presidente de origen indígena de México: su mandato duró 5 periodos: de 1857 a 1872; también conocido como
-                             Benemérito de las Américas por su lucha contra la invasión francesa, Benito Juárez estableció las bases sobre las que se funda el Estado laico y la República federal en México; 
-                             De igual forma en el tiempo que fungió como presidente de la Suprema Corte de Justicia de la Nación, defendió la Constitución de 1857. </p>
+							<p class="news_post_text" style="margin-top: 59px;">Con la reforma constitucional de 1994, que reconfiguró al Máximo Tribunal del país,
+							 a partir de 1995, la Biblioteca Central quedó incorporada al Centro de Documentación y Análisis de la Suprema Corte de Justicia de la Nación, 
+							 según lo dispuesto en el artículo 11, fracción XIX, de la Ley Orgánica del Poder Judicial de la Federación.
+							 Los servicios de la Biblioteca Central en conjunción con la demanda de información bibliohemerográfica por los usuarios, dieron paso a la integración de un sistema nacional 
+							 de bibliotecas especializadas en Derecho y asignaturas afines </p>
 
                                     <h3>Video Explicativo:</h3>
-									<iframe width="640" height="360" src="https://www.youtube.com/embed/wlojix5mIeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="640" height="360" src="https://www.youtube.com/embed/tsQMOR2y7fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							<!-- Fin de la publicación -->
 						</div>
 					</div>
@@ -93,7 +95,7 @@
 								<h3>Articulos Completos</h3>
 							</div>
 							<ul class="sidebar_list">
-							    <li class="sidebar_list_item"><a href="<?= route_to('public_one');?>">Natalicio Benito Juárez</a></li>
+							<li class="sidebar_list_item"><a href="<?= route_to('public_one');?>">Natalicio Benito Juárez</a></li>
 								<li class="sidebar_list_item"><a href="<?= route_to('public_two');?>">Inauguración de la Suprema Corte de Justicia</a></li>
 								<li class="sidebar_list_item"><a href="<?= route_to('public_three');?>">Promulgación del plan de guadalupe</a></li>
 								<li class="sidebar_list_item"><a href="<?= route_to('public_four');?>">Heroica defensa del puerto de Veracruz</a></li>
