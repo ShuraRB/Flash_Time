@@ -45,7 +45,7 @@
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">Heroica defensa del puerto de Veracruz.</a>
+										<a href="<?= route_to('public_four');?>">Heroica defensa del puerto de Veracruz.</a>
 									</div>
 									<div class="news_post_meta">
 										<span class="news_post_author"><a href="#">Subido por Genaro</a></span>
@@ -58,7 +58,7 @@
 								<p>Un dia como hoy se conmemora el 21 de abril de 1914, el presidente norteamericano Woodrow Wilson dio la orden de comenzar la acción en Veracruz donde USA trata de Apodérese de la Aduana, que no permita que los pertrechos de guerra sean entregados al gobierno de Huerta o a cualquier otra facción.</p>
 							</div>
 							<div class="news_post_button text-center trans_200">
-								<a href="news_post.html">Leer más</a>
+								<a href="<?= route_to('public_four');?>">Leer más</a>
 							</div>
 						</div>
 
@@ -76,7 +76,7 @@
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">La Toma de Queretaro.</a>
+										<a href="<?= route_to('public_five');?>">La Toma de Queretaro.</a>
 									</div>
 									<div class="news_post_meta">
 										<span class="news_post_author"><a href="#">Subido por Genaro</a></span>
@@ -89,7 +89,7 @@
 								<p>Segunda Intervención Francesa trajo como consecuencia la imposición de un gobierno imperialista bajo el mandato del Archiduque Maximiliano de Habsburgo, el cual era sustentado y protegido por tropas francesas e imperialistas mexicanos.</p>
 							</div>
 							<div class="news_post_button text-center trans_200">
-								<a href="news_post.html">Leer más</a>
+								<a href="<?= route_to('public_five');?>">Leer más</a>
 							</div>
 						</div>
 
@@ -107,7 +107,7 @@
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">Fundación de Petróleos Mexicanos PEMEX.</a>
+										<a href="<?= route_to('public_six');?>">Fundación de Petróleos Mexicanos PEMEX.</a>
 									</div>
 									<div class="news_post_meta">
 										<span class="news_post_author"><a href="#">Subido por Genaro</a></span>
@@ -120,7 +120,7 @@
 								<p>Un dia como hoy se conmemora La fundacion de petroleos mexicanos PEMEX, gracias al presidente Lázaro Cárdenas del Río decretó la expropiación de los bienes muebles e inmuebles de 17 compañías petroleras a favor de la nación.</p>
 							</div>
 							<div class="news_post_button text-center trans_200">
-								<a href="news_post.html">Leer más</a>
+								<a href="<?= route_to('public_six');?>">Leer más</a>
 							</div>
 						</div>
 					</div>
