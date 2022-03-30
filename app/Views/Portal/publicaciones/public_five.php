@@ -56,30 +56,25 @@
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p> En 1887, bajo la presidencia del Máximo Tribunal del insigne jurista Ignacio L. Vallarta, se reiteró la necesidad de apoyar la labor jurisdiccional mediante una biblioteca, 
-									con lo que, a partir de entonces se inició el desarrollo de la colección bibliohemerográfica.
-									Con la inauguración del edificio sede de la Suprema Corte de Justicia de la Nación en 1941, 
-									se mantuvo la idea de la importancia de contar con un espacio apropiado para instalar una biblioteca
-									que garantizara el resguardo y desarrollo de sus colecciones, acervo que años más tarde se distinguió
-									con el nombre de la señora Ministra María Cristina Salmorán de Tamayo que, si bien en un inicio estaba dedicada
-									a prestar sus servicios exclusivamente a los señores Ministros y al personal de sus ponencias, paulatinamente
-									abrió sus puertas al público en general.</p>
+								<p> Después de un lapso de combates, en 1867, el Ejército Republicano logró sitiar en la ciudad de Querétaro a Maximiliano de Habsburgo y a las tropas imperialistas que permanecían leales a su causa.
+									El sitio de la ciudad duró cerca de 60 días, hasta que el 15 de mayo de 1867, el emperador archiduque Maximiliano de Habsburgo fue hecho prisionero y Querétaro ocupada por las fuerzas del ejército federal. A la llegada del General Mariano Escobedo, Maximiliano le entregó su espada y le pidió se le conceda trasladarse a Europa, Escobedo le respondió que la disposición de los prisioneros le correspondía al gobierno de la República.
+									Ese día por la tarde, el general Escobedo rindió un parte telegráfico comunicando la caída de Querétaro y la aprehensión de Maximiliano y los generales Castillo y Tomás Mejía, pues Miramón había conseguido ocultarse.</p>
 							</div>
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Corte.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'espada.jpg');?>">
 							</div>
 							<div class="news_post_quote">
-								<p class="news_post_quote_text"> Mural de Benito Juarez expuesto en la alameda de Oaxaca central.</p>
+								<p class="news_post_quote_text"> 1867, Toma de Querétano, Maximiliano de Habsburgo entrega su espada en señal de rendición.</p>
 							</div>
 
-							<p class="news_post_text" style="margin-top: 59px;">Con la reforma constitucional de 1994, que reconfiguró al Máximo Tribunal del país,
-							 a partir de 1995, la Biblioteca Central quedó incorporada al Centro de Documentación y Análisis de la Suprema Corte de Justicia de la Nación, 
-							 según lo dispuesto en el artículo 11, fracción XIX, de la Ley Orgánica del Poder Judicial de la Federación.
-							 Los servicios de la Biblioteca Central en conjunción con la demanda de información bibliohemerográfica por los usuarios, dieron paso a la integración de un sistema nacional 
-							 de bibliotecas especializadas en Derecho y asignaturas afines </p>
+							<p class="news_post_text" style="margin-top: 59px;">El 19 de junio de 1867, a las siete horas con cinco minutos, 
+							Maximiliano de Habsburgo recibió en el Cerro de las Campanas cinco impactos de bala, tras ser sentenciado a muerte, 
+							con base en la Ley del 25 de enero de 1862. Junto a él cayeron los generales Tomás Mejía y Miguel Miramón. Con su ejecución, 
+							las armas de la República triunfaron sobre las fuerzas imperialistas y la soberanía de México fue restaurada. </p>
 
                                     <h3>Video Explicativo:</h3>
-									<iframe width="640" height="360" src="https://www.youtube.com/embed/tsQMOR2y7fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="640" height="360" src="https://www.youtube.com/embed/nZ1hgnoCErk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<!--<iframe width="640" height="360" src="https://www.youtube.com/embed/tsQMOR2y7fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 							<!-- Fin de la publicación -->
 						</div>
 					</div>

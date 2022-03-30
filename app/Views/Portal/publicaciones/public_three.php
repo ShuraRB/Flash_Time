@@ -56,30 +56,26 @@
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p> En 1887, bajo la presidencia del Máximo Tribunal del insigne jurista Ignacio L. Vallarta, se reiteró la necesidad de apoyar la labor jurisdiccional mediante una biblioteca, 
-									con lo que, a partir de entonces se inició el desarrollo de la colección bibliohemerográfica.
-									Con la inauguración del edificio sede de la Suprema Corte de Justicia de la Nación en 1941, 
-									se mantuvo la idea de la importancia de contar con un espacio apropiado para instalar una biblioteca
-									que garantizara el resguardo y desarrollo de sus colecciones, acervo que años más tarde se distinguió
-									con el nombre de la señora Ministra María Cristina Salmorán de Tamayo que, si bien en un inicio estaba dedicada
-									a prestar sus servicios exclusivamente a los señores Ministros y al personal de sus ponencias, paulatinamente
-									abrió sus puertas al público en general.</p>
+								<p> Con el asesinato de Madero, acaecido el 22 de febrero de 1913, la lucha armada iniciada en noviembre de 1910 dio un giro importante,
+									pues se dieron una serie de sucesos que extenderían por largo tiempo el conflicto. La usurpación de Victoriano Huerta en la presidencia
+									 de la República motivó, en buena medida, la negativa de los líderes revolucionarios a deponer las armas, al tiempo de propiciar la formación de otros grupos armados.
+									El 26 de marzo de 1913, el gobernador de Coahuila, Venustiano Carranza Garza — quien era partidario del maderismo– promulgó el Plan de Guadalupe,
+									 con el cual, de acuerdo con estudiosos del periodo, se inició la revolución constitucionalista.</p>
 							</div>
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Corte.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'firma.jpg');?>">
 							</div>
 							<div class="news_post_quote">
-								<p class="news_post_quote_text"> Mural de Benito Juarez expuesto en la alameda de Oaxaca central.</p>
+								<p class="news_post_quote_text"> Foto del congreso constituyente en el momento de la firma del plan de guadalupe por Venuztiano Carranza.</p>
 							</div>
 
-							<p class="news_post_text" style="margin-top: 59px;">Con la reforma constitucional de 1994, que reconfiguró al Máximo Tribunal del país,
-							 a partir de 1995, la Biblioteca Central quedó incorporada al Centro de Documentación y Análisis de la Suprema Corte de Justicia de la Nación, 
-							 según lo dispuesto en el artículo 11, fracción XIX, de la Ley Orgánica del Poder Judicial de la Federación.
-							 Los servicios de la Biblioteca Central en conjunción con la demanda de información bibliohemerográfica por los usuarios, dieron paso a la integración de un sistema nacional 
-							 de bibliotecas especializadas en Derecho y asignaturas afines </p>
+							<p class="news_post_text" style="margin-top: 59px;">La deposición de Huerta se logró en 1914, pero ello no contribuyó al cese de las hostilidades
+							 entre los diferentes grupos revolucionarios. La organización de la Convención de Aguascalientes, formada por diversos altos mandos militares y su ruptura
+							  con el Ejército Constitucionalista de Carranza, desatarían la siguiente etapa de la lucha armada entre estas facciones, la cual finalizaría hasta 1916. </p>
 
                                     <h3>Video Explicativo:</h3>
-									<iframe width="640" height="360" src="https://www.youtube.com/embed/tsQMOR2y7fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="640" height="360" src="https://www.youtube.com/embed/3QTU-VSm310" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<!--<iframe width="640" height="360" src="https://www.youtube.com/embed/tsQMOR2y7fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 							<!-- Fin de la publicación -->
 						</div>
 					</div>

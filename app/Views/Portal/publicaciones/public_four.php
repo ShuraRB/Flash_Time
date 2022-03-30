@@ -56,30 +56,33 @@
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p> En 1887, bajo la presidencia del Máximo Tribunal del insigne jurista Ignacio L. Vallarta, se reiteró la necesidad de apoyar la labor jurisdiccional mediante una biblioteca, 
-									con lo que, a partir de entonces se inició el desarrollo de la colección bibliohemerográfica.
-									Con la inauguración del edificio sede de la Suprema Corte de Justicia de la Nación en 1941, 
-									se mantuvo la idea de la importancia de contar con un espacio apropiado para instalar una biblioteca
-									que garantizara el resguardo y desarrollo de sus colecciones, acervo que años más tarde se distinguió
-									con el nombre de la señora Ministra María Cristina Salmorán de Tamayo que, si bien en un inicio estaba dedicada
-									a prestar sus servicios exclusivamente a los señores Ministros y al personal de sus ponencias, paulatinamente
-									abrió sus puertas al público en general.</p>
+								<p> la invasión norteamericana de 1914 es uno de los sucesos más importantes, 
+									ocurrió la mañana del 21 de abril, cuando la fuerza naval de Estados Unidos irrumpió en suelo veracruzano, 
+									donde encontraron la voluntad del pueblo y a los cadetes de la Escuela Naval Militar para ofrendar su vida 
+									en defensa de la patria, La tensión entre ambas naciones aumentó debido a los cambios en la política que acarreó 
+									el mandato de Woodrow Wilson, quien se negó a reconocer al gobierno de Victoriano Huerta, y planteó la necesidad 
+									de convocar cuanto antes a las elecciones en México.</p>
 							</div>
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Corte.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'armada.jpg');?>">
 							</div>
 							<div class="news_post_quote">
-								<p class="news_post_quote_text"> Mural de Benito Juarez expuesto en la alameda de Oaxaca central.</p>
+								<p class="news_post_quote_text"> Regimiento de marines estadounidenses desembarcando en el puerto de veracruz en 1914.</p>
 							</div>
 
-							<p class="news_post_text" style="margin-top: 59px;">Con la reforma constitucional de 1994, que reconfiguró al Máximo Tribunal del país,
-							 a partir de 1995, la Biblioteca Central quedó incorporada al Centro de Documentación y Análisis de la Suprema Corte de Justicia de la Nación, 
-							 según lo dispuesto en el artículo 11, fracción XIX, de la Ley Orgánica del Poder Judicial de la Federación.
-							 Los servicios de la Biblioteca Central en conjunción con la demanda de información bibliohemerográfica por los usuarios, dieron paso a la integración de un sistema nacional 
-							 de bibliotecas especializadas en Derecho y asignaturas afines </p>
+							<p class="news_post_text" style="margin-top: 59px;">Al percatarse de la invasión, en el cuartel del 19° Regimiento de Infantería,
+							 se comisionó al teniente coronel Albino R. Cerrillo, para que marchara por la avenida independencia rumbo al muelle de la terminal.
+							  Su propósito era rechazar a toda costa las tropas invasoras e impedir el desembarco. 
+							
+							  Todos los ciudadanos armados marcharon por la avenida Cinco de mayo rumbo al muelle, con un mismo objetivo: detener a las tropas. 
+
+							Así fue como comenzó la defensa del puerto de Veracruz con voluntarios, civiles, federales y el pueblo unido que, desde diferentes puntos, 
+							como casas, postes, puertas y ventanas, defendieron la soberanía nacional con escasos recursos. En ese momento destacó por su heroica defensa la Escuela Naval,
+							 su equipo atacó a la infantería que desembarcó de Utah y a su vez fueron atacados por los cañones del Prairie.</p>
 
                                     <h3>Video Explicativo:</h3>
-									<iframe width="640" height="360" src="https://www.youtube.com/embed/tsQMOR2y7fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="640" height="360" src="https://www.youtube.com/embed/NwIeuvVosYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<!--<iframe width="640" height="360" src="https://www.youtube.com/embed/tsQMOR2y7fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 							<!-- Fin de la publicación -->
 						</div>
 					</div>
