@@ -17,7 +17,7 @@
 		</div>
 		<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 			<div class="hero_slide_content text-center">
-				<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">La otra <span>cara</span> de la <span>historia</span> ...</h1>
+				<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"><span>La otra cara de la historia</span> ...</h1>
 			</div>
 		</div>
 	</div>
