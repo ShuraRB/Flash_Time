@@ -121,7 +121,7 @@
 									<div class="latest_post_image">
 										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'defensa.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
 									</div>
-									<div class="latest_post_title"><a href="news_post.html">Heroica defensa del puerto de Veracruz</a></div>
+									<div class="latest_post_title"><a href="<?= route_to('public_four');?>">Heroica defensa del puerto de Veracruz</a></div>
 									<div class="latest_post_meta">
 										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
 										
@@ -133,7 +133,7 @@
 									<div class="latest_post_image">
 										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Queretaro.jpg');?>" alt="https://unsplash.com/@erothermel">
 									</div>
-									<div class="latest_post_title"><a href="news_post.html">Toma de Querétaro</a></div>
+									<div class="latest_post_title"><a href="<?= route_to('public_five');?>">Toma de Querétaro</a></div>
 									<div class="latest_post_meta">
 										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
 										
@@ -145,7 +145,7 @@
 									<div class="latest_post_image">
 										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Pemex.jpg');?>" alt="https://unsplash.com/@element5digital">
 									</div>
-									<div class="latest_post_title"><a href="news_post.html">Fundación de Petróleos Mexicanos PEMEX</a></div>
+									<div class="latest_post_title"><a href="<?= route_to('public_six');?>">Fundación de Petróleos Mexicanos PEMEX</a></div>
 									<div class="latest_post_meta">
 										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
 										
