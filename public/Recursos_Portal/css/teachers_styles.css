@@ -800,8 +800,8 @@ section
 	-ms-transform: translate(-50%, -50%) scale(0.5);
 	-o-transform: translate(-50%, -50%) scale(0.5);
 	transform: translate(-50%, -50%) scale(0.5);
-	width: 75px;
-	height: 75px;
+	width: 210px;
+	height: 50px;
 	background: #ffb606;
 	z-index: 10;
 	cursor: pointer;
@@ -811,8 +811,8 @@ section
 .card_plus a
 {
 	display: block;
-	font-size: 24px;
-	line-height: 75px;
+	font-size: 18px;
+	line-height: 50px;
 	color: #FFFFFF;
 }
 .card-body

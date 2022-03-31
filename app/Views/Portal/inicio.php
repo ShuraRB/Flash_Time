@@ -205,7 +205,7 @@
 				<div class="col-lg-4 teacher">
 					<div class="card">
 						<div class="card_img">
-							<div class="card_plus trans_200 text-center"><a href="<?= route_to('hidalgo');?>">+</a></div>
+							<div class="card_plus trans_200 text-center"><a href="<?= route_to('hidalgo');?>">Haz click aquí para Leer</a></div>
 							<img class="card-img-top trans_200" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'hidalgo.jpg');?>" alt="">
 						</div>
 						<div class="card-body text-center">
@@ -219,7 +219,7 @@
 				<div class="col-lg-4 teacher">
 					<div class="card">
 						<div class="card_img">
-							<div class="card_plus trans_200 text-center"><a href="<?= route_to('morelos');?>">+</a></div>
+							<div class="card_plus trans_200 text-center"><a href="<?= route_to('morelos');?>">Haz click aquí para Leer</a></div>
 							<img class="card-img-top trans_200" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'morelos.jpg');?>" alt="">
 						</div>
 						<div class="card-body text-center">
@@ -233,7 +233,7 @@
 				<div class="col-lg-4 teacher">
 					<div class="card">
 						<div class="card_img">
-							<div class="card_plus trans_200 text-center"><a href="<?= route_to('law');?>">+</a></div>
+							<div class="card_plus trans_200 text-center"><a href="<?= route_to('law');?>">Haz click aquí para Leer</a></div>
 							<img class="card-img-top trans_200" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'olivier.jpg');?>" alt="">
 						</div>
 						<div class="card-body text-center">
