@@ -67,7 +67,7 @@
 							<a href="<?= route_to('un_día');?>">
 							<center><img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'reloj.png');?>" alt="un_dia"></center>
 							<div>Un día como hoy</div></a>
-						</li>
+						
 					</ul>
 				</div>
 			</nav>
