@@ -50,12 +50,17 @@ $routes->get('/Sopa', 'Portal\Juegos\Sopa::index',['as' => 'Sopa']);
 $routes->get('/Q1', 'Portal\Juegos\Q1::index',['as' => 'Q1']);
 $routes->get('/Q2', 'Portal\Juegos\Q2::index',['as' => 'Q2']);
 $routes->get('/Q3', 'Portal\Juegos\Q3::index',['as' => 'Q3']);
+//Rutas de un dia como hoy
 $routes->get('/public_one', 'Portal\publicaciones\public_one::index',['as' => 'public_one']);
 $routes->get('/public_two', 'Portal\publicaciones\public_two::index',['as' => 'public_two']);
 $routes->get('/public_three', 'Portal\publicaciones\public_three::index',['as' => 'public_three']);
 $routes->get('/public_four', 'Portal\publicaciones\public_four::index',['as' => 'public_four']);
 $routes->get('/public_five', 'Portal\publicaciones\public_five::index',['as' => 'public_five']);
 $routes->get('/public_six', 'Portal\publicaciones\public_six::index',['as' => 'public_six']);
+//Rutas para vistas grados
+$routes->get('/primero', 'Portal\publicaciones\primero::index',['as' => 'primero']);
+$routes->get('/segundo', 'Portal\publicaciones\segundo::index',['as' => 'segundo']);
+$routes->get('/tercero', 'Portal\publicaciones\tercero::index',['as' => 'tercero']);
 //Rutas personajes
 $routes->get('/hidalgo', 'Portal\Personajes\Hidalgo::index',['as' => 'hidalgo']);
 $routes->get('/morelos', 'Portal\Personajes\Morelos::index',['as' => 'morelos']);
@@ -67,6 +72,13 @@ $routes->get('/otro_lado_3', 'Portal\El_otro_lado_de_la_historia\Otro_lado_3::in
 $routes->get('/otro_lado_4', 'Portal\El_otro_lado_de_la_historia\Otro_lado_4::index',['as' => 'otro_lado_4']);
 $routes->get('/otro_lado_5', 'Portal\El_otro_lado_de_la_historia\Otro_lado_5::index',['as' => 'otro_lado_5']);
 $routes->get('/otro_lado_6', 'Portal\El_otro_lado_de_la_historia\Otro_lado_6::index',['as' => 'otro_lado_6']);
+$routes->get('/otro_lado_7', 'Portal\El_otro_lado_de_la_historia\Otro_lado_7::index',['as' => 'otro_lado_7']);
+$routes->get('/otro_lado_8', 'Portal\El_otro_lado_de_la_historia\Otro_lado_8::index',['as' => 'otro_lado_8']);
+$routes->get('/otro_lado_9', 'Portal\El_otro_lado_de_la_historia\Otro_lado_9::index',['as' => 'otro_lado_9']);
+$routes->get('/otro_lado_10', 'Portal\El_otro_lado_de_la_historia\Otro_lado_10::index',['as' => 'otro_lado_10']);
+$routes->get('/otro_lado_11', 'Portal\El_otro_lado_de_la_historia\Otro_lado_11::index',['as' => 'otro_lado_11']);
+$routes->get('/otro_lado_12', 'Portal\El_otro_lado_de_la_historia\Otro_lado_12::index',['as' => 'otro_lado_12']);
+$routes->get('/otro_lado_13', 'Portal\El_otro_lado_de_la_historia\Otro_lado_13::index',['as' => 'otro_lado_13']);
 
 
 

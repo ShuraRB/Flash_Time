@@ -67,7 +67,7 @@
 							<a href="<?= route_to('un_día');?>">
 							<center><img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'reloj.png');?>" alt="un_dia"></center>
 							<div>Un día como hoy</div></a>
-						</li>
+						
 					</ul>
 				</div>
 			</nav>
@@ -104,6 +104,7 @@
 					</li>
 					<li class="menu_item menu_mm">
 						<a href="<?php route_to('juego');?>">
+						<a href="<?php route_to('Juegos');?>">
 						<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick.png');?>" alt="juego">
 						Juego</a>
 					</li>
@@ -184,8 +185,10 @@
 								</li>
 								<li class="footer_list_item">
 									<a href="<?php route_to('juego');?>">
+									<a href="<?php route_to('Juegos');?>">
 									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick-b.png');?>" alt="juego">
 									Juego</a>
+									Juegos</a>
 								</li>
 								<li class="footer_list_item">
 									<a href="<?= route_to('personajes');?>">
