@@ -18,34 +18,39 @@
 				
 				<!-- Hero Slide -->
 				<div class="hero_slide">
+					<a href="<?= route_to('Juegos');?>">
 					<div class="hero_slide_background" style="background-image:url(<?= base_url(RECURSOS_PORTAL_IMAGES.'juego.jpg');?>)"></div>
 					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 						<div class="hero_slide_content text-center">
-							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Juega y <span>aprende</span> hoy!</h1>
+							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"><span>Juegos</span></h1>
 						</div>
 					</div>
+					</a>
 				</div>
 				
 				<!-- Hero Slide -->
 				<div class="hero_slide">
+					<a href="<?= route_to('personajes');?>">
 					<div class="hero_slide_background" style="background-image:url(<?= base_url(RECURSOS_PORTAL_IMAGES.'personajes.jpg');?>)"></div>
 					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 						<div class="hero_slide_content text-center">
-							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Conoce a las personas que <span>cambiaron al mundo</span></h1>
+							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"><span>Personajes Historicos</span></h1>
 						</div>
 					</div>
+					</a>
 				</div>
 				
 				<!-- Hero Slide -->
 				<div class="hero_slide">
+				<a href="<?= route_to('personajes');?>">
 					<div class="hero_slide_background" style="background-image:url(<?= base_url(RECURSOS_PORTAL_IMAGES.'historia_background.jpg');?>)"></div>
 					<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 						<div class="hero_slide_content text-center">
-							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Lee y escucha los <span>eventos mas relevantes</span> !</h1>
+							<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"><span>Un día como hoy...</span></h1>
 						</div>
 					</div>
 				</div>
-
+				</a>
 			</div>
 
 			<div class="hero_slider_left hero_slider_nav trans_200"><span class="trans_200">prev</span></div>
@@ -91,7 +96,7 @@
 			<div class="event_items">
 
 				<!-- Event Item -->
-				<div class="row event_item">
+				"><div class="row event_item">
 					<div class="col">
 						<div class="row d-flex flex-row align-items-end">
 
@@ -104,7 +109,7 @@
 
 							<div class="col-lg-6 order-lg-2 order-3">
 								<div class="event_content">
-									<div class="event_name"><a class="trans_200" href="#">Natalicio de Benito Juárez.</a></div>
+									<div class="event_name"><a class="trans_200" href="<?= route_to('public_one');?>">Natalicio de Benito Juárez.</a></div>
 									<div class="event_location">Por: Genaro Ariel</div>
 									<p>Un dia como hoy se conmemora el nacimiento de Benito Juárez, nació un día 21 de marzo de 1806 en San Pablo Guelatao, Oaxaca, y sus humildes orígenes no fueron un impedimento para que se formara como abogado y se convirtiera en presidente del gobierno del país.</p>
 								</div>
@@ -112,13 +117,13 @@
 
 							<div class="col-lg-4 order-lg-3 order-1">
 								<div class="event_image">
-									<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'benito.jpg');?>" alt="">
+									<img href="<?= route_to('public_one');?>" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'benito.jpg');?>" alt="">
 								</div>
 							</div>
 
 						</div>	
 					</div>
-				</div>
+				</div></a>
 
 				<!-- Event Item -->
 				<div class="row event_item">
@@ -134,7 +139,7 @@
 
 							<div class="col-lg-6 order-lg-2 order-3">
 								<div class="event_content">
-									<div class="event_name"><a class="trans_200" href="#">Inauguración de la Suprema Corte de Justicia.</a></div>
+									<div class="event_name"><a class="trans_200" href="<?= route_to('public_two');?>">Inauguración de la Suprema Corte de Justicia.</a></div>
 									<div class="event_location">Por: Genaro Ariel</div>
 									<p>Un dia como hoy se conmemora la ignauguración de la Suprema Corte de Justicia de la Nación (SCJN) institucion de las más antiguas e importantes del estado mexicano, que ha sido una pieza clave de los distintos regímenes en el país, funcionando a veces como un contrapeso efectivo a los demás poderes.</p>
 								</div>
@@ -164,7 +169,7 @@
 
 							<div class="col-lg-6 order-lg-2 order-3">
 								<div class="event_content">
-									<div class="event_name"><a class="trans_200" href="#">Promulgación del Plan de Guadalupe.</a></div>
+									<div class="event_name"><a class="trans_200" href="<?= route_to('public_three');?>">Promulgación del Plan de Guadalupe.</a></div>
 									<div class="event_location">Por: Genaro Ariel</div>
 									<p>Un dia como hoy se conmemora la promulgación del plan de guadalupe conformó por siete artículos o puntos. En ellos se menciona el desconocimiento de Huerta como primer mandatario; el desconocimiento del Poder Legislativo y Judicial, así como de los gobiernos de los estados alineados con la administración huertista.</p>
 								</div>

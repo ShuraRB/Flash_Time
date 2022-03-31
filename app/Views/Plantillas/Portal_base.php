@@ -103,9 +103,8 @@
 						Inicio</a>
 					</li>
 					<li class="menu_item menu_mm">
-						<a href="<?php route_to('juego');?>">
-						<a href="<?php route_to('Juegos');?>">
-						<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick.png');?>" alt="juego">
+						<a href="<?= route_to('Juegos');?>">
+						<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick.png');?>" alt="juegos">
 						Juego</a>
 					</li>
 					<li class="menu_item menu_mm">
@@ -184,11 +183,10 @@
 									Inicio</a>
 								</li>
 								<li class="footer_list_item">
-									<a href="<?php route_to('juego');?>">
-									<a href="<?php route_to('Juegos');?>">
-									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick-b.png');?>" alt="juego">
+
+									<a href="<?= route_to('Juegos');?>">
+									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick-b.png');?>" alt="juegos">
 									Juego</a>
-									Juegos</a>
 								</li>
 								<li class="footer_list_item">
 									<a href="<?= route_to('personajes');?>">
@@ -198,7 +196,7 @@
 								<li class="footer_list_item">
 										<a href="<?= route_to('otro_lado');?>">
 										<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'2caras-b.png');?>" alt="otro_lado">
-										El otro lado de la historia</a>
+										La otra cara de la historia</a>
 								</li>
 								<li class="footer_list_item">
 									<a href="<?= route_to('un_día');?>">
