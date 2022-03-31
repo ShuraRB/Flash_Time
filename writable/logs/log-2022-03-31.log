@@ -1,0 +1,11 @@
+CRITICAL - 2022-03-31 13:29:53 --> Invalid file: Portal/otro_lado.php
+#0 C:\xampp\htdocs\Flash_Time\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Portal/otro_lad...')
+#1 C:\xampp\htdocs\Flash_Time\system\Common.php(1089): CodeIgniter\View\View->render('Portal/otro_lad...', Array, true)
+#2 C:\xampp\htdocs\Flash_Time\app\Controllers\Portal\Otro_lado.php(29): view('Portal/otro_lad...', Array)
+#3 C:\xampp\htdocs\Flash_Time\app\Controllers\Portal\Otro_lado.php(14): App\Controllers\Portal\Otro_lado->crear_vista('Portal/otro_lad...', Array)
+#4 C:\xampp\htdocs\Flash_Time\system\CodeIgniter.php(825): App\Controllers\Portal\Otro_lado->index()
+#5 C:\xampp\htdocs\Flash_Time\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portal\Otro_lado))
+#6 C:\xampp\htdocs\Flash_Time\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Flash_Time\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Flash_Time\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

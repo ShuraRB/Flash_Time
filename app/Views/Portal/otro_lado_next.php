@@ -12,19 +12,20 @@
 	<!-- Home -->
 	<div class="home">
 		<div class="home_background_container prlx_parent">
-			<div class="home_background prlx" style="background-image:url(<?= base_url(RECURSOS_PORTAL_IMAGES.'news_background.jpg');?>"></div>
+			<div class="home_background prlx" style="background-image:url(<?= base_url(RECURSOS_PORTAL_IMAGES.'otra_cara3.jpg');?>"></div>
 		</div>
 		<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 			<div class="hero_slide_content text-center">
-				<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Un día como <span>hoy</span> ...</h1>
+				<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"><span>La otra cara de la historia</span> ...</h1>
 			</div>
 		</div>
 	</div>
-
+				
 	<!-- News -->
 	<div class="news">
 		<div class="container">
 			<div class="row">
+				
 
 				<!-- News Column -->
 
@@ -34,93 +35,96 @@
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'defensa.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'colonia4.jpg');?>" alt="">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>21</div>
-										<div>Marzo</div>
+										<div>31</div>
+										<div>MAR</div>
 									</div>
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="<?= route_to('public_four');?>">Heroica defensa del puerto de Veracruz.</a>
+										<a href="news_post.html"> 13 Colonias</a>
 									</div>
 									<div class="news_post_meta">
-										<span class="news_post_author"><a href="#">Subido por Genaro</a></span>
-										
-										
+										<span class="news_post_author"><a href="#">Por: Ana Rugerio</a></span>
+								
 									</div>
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p>Un dia como hoy se conmemora el 21 de abril de 1914, el presidente norteamericano Woodrow Wilson dio la orden de comenzar la acción en Veracruz donde USA trata de Apodérese de la Aduana, que no permita que los pertrechos de guerra sean entregados al gobierno de Huerta o a cualquier otra facción.</p>
+								<p>Conocer los procesos de independencia de los países de América y 
+									el inicio de las revoluciones burguesas es fundamental para 
+									estudiar los temas de la Historia Universal  ...</p>
 							</div>
 							<div class="news_post_button text-center trans_200">
-								<a href="<?= route_to('public_four');?>">Leer más</a>
+								<a href="<?=route_to ('otro_lado_6');?>">Leer más</a>
 							</div>
 						</div>
 
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Queretaro.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'moctezuma1.jpg');?>" alt="">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>25</div>
-										<div>Marzo</div>
+										<div>31</div>
+										<div>MAR</div>
 									</div>
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="<?= route_to('public_five');?>">La Toma de Queretaro.</a>
+										<a href="news_post.html"> ¿QUIÉN MATÓ A MOCTEZUMA?</a>
 									</div>
 									<div class="news_post_meta">
-										<span class="news_post_author"><a href="#">Subido por Genaro</a></span>
-										
+										<span class="news_post_author"><a href="#">Por: Ana Rugerio</a></span>
 										
 									</div>
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p>Segunda Intervención Francesa trajo como consecuencia la imposición de un gobierno imperialista bajo el mandato del Archiduque Maximiliano de Habsburgo, el cual era sustentado y protegido por tropas francesas e imperialistas mexicanos.</p>
+								<p>Moctezuma le hablaron con gran acatamiento y cesaron de tirar proyectiles, 
+									lo que implica el respeto que se le tenía; el otro, cuando acto seguido se 
+									le comunica a Moctezuma que había sido depuesto del cargo de tlatoani y se 
+									nombra como señor de México a su hermano Cuitláhuac. ...</p>
 							</div>
 							<div class="news_post_button text-center trans_200">
-								<a href="<?= route_to('public_five');?>">Leer más</a>
+								<a href="<?=route_to ('otro_lado_7');?>">Leer más</a>
 							</div>
 						</div>
 
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Pemex.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'oceano.jpg');?>" alt="">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>26</div>
-										<div>Marzo</div>
+										<div>30</div>
+										<div>MAR</div>
 									</div>
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="<?= route_to('public_six');?>">Fundación de Petróleos Mexicanos PEMEX.</a>
+										<a href="news_post.html">Océano Ártico</a>
 									</div>
 									<div class="news_post_meta">
-										<span class="news_post_author"><a href="#">Subido por Genaro</a></span>
+										<span class="news_post_author"><a href="#">Por: Ana Rugerio</a></span>
 										
-
 									</div>
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p>Un dia como hoy se conmemora La fundacion de petroleos mexicanos PEMEX, gracias al presidente Lázaro Cárdenas del Río decretó la expropiación de los bienes muebles e inmuebles de 17 compañías petroleras a favor de la nación.</p>
+								<p>El océano Ártico se encuentra en el norte del planeta, 
+									no tiene masa continental ...</p>
 							</div>
 							<div class="news_post_button text-center trans_200">
-								<a href="<?= route_to('public_six');?>">Leer más</a>
+								<a href="<?=route_to ('otro_lado_5');?>">Leer más</a>
 							</div>
 						</div>
 					</div>
@@ -129,9 +133,9 @@
 
 					<div class="news_page_nav">
 						<ul>
-							<li class="text-center trans_200"><a href="<?= route_to('un_día');?>">01</a></li>
-							<li class="active text-center trans_200"><a href="<?= route_to('un_día_next');?>">02</a></li>
-							
+							<li class="text-center trans_200"><a href="<?= route_to('otro_lado');?>">01</a></li>
+							<li class="active text-center trans_200"><a href="<?= route_to('otro_lado_next');?>">02</a></li>
+							<li class="text-center trans_200"><a href="<?= route_to('otro_lado_next_3');?>">03</a></li>
 						</ul>
 					</div>
 
@@ -141,20 +145,6 @@
 
 				<div class="col-lg-4">
 					<div class="sidebar">
-
-						<!-- Archives -->
-						<div class="sidebar_section">
-							<div class="sidebar_section_title">
-							<h3>Temario</h3>
-							<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'temario.png');?>" alt="un_dia">
-							</div>
-							<ul class="sidebar_list">
-								<li class="sidebar_list_item"><a href="<?= route_to('public_one');?>">Primero de secundaria</a></li>
-								<li class="sidebar_list_item"><a href="<?= route_to('public_two');?>">Segundo de secundaria</a></li>
-								<li class="sidebar_list_item"><a href="<?= route_to('public_three');?>">Tercero de secundaria</a></li>
-								
-							</ul>
-						</div>
 
 						<!-- Latest Posts -->
 
@@ -205,21 +195,6 @@
 								
 						</div>
 
-						<!-- Tags -->
-
-						<div class="sidebar_section">
-							<div class="sidebar_section_title">
-								<h3>Tags</h3>
-							</div>
-							<div class="tags d-flex flex-row flex-wrap">
-								<div class="tag"><a href="#">Course</a></div>
-								<div class="tag"><a href="#">Design</a></div>
-								<div class="tag"><a href="#">FAQ</a></div>
-								<div class="tag"><a href="#">Teachers</a></div>
-								<div class="tag"><a href="#">School</a></div>
-								<div class="tag"><a href="#">Graduate</a></div>
-							</div>
-						</div>
 
 					</div>
 				</div>

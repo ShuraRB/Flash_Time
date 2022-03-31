@@ -20,11 +20,12 @@
 			</div>
 		</div>
 	</div>
-
+				
 	<!-- News -->
 	<div class="news">
 		<div class="container">
 			<div class="row">
+				
 
 				<!-- News Column -->
 
@@ -205,21 +206,6 @@
 								
 						</div>
 
-						<!-- Tags -->
-
-						<div class="sidebar_section">
-							<div class="sidebar_section_title">
-								<h3>Tags</h3>
-							</div>
-							<div class="tags d-flex flex-row flex-wrap">
-								<div class="tag"><a href="#">Course</a></div>
-								<div class="tag"><a href="#">Design</a></div>
-								<div class="tag"><a href="#">FAQ</a></div>
-								<div class="tag"><a href="#">Teachers</a></div>
-								<div class="tag"><a href="#">School</a></div>
-								<div class="tag"><a href="#">Graduate</a></div>
-							</div>
-						</div>
 
 					</div>
 				</div>

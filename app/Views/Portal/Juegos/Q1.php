@@ -73,7 +73,7 @@ nota=10/nump*acertos;
 if(Math.floor(nota)!=Math.ceil(nota)){cadea=""+nota;for(var i=0;i<=cadea.length;i++){
 if(cadea.charAt(i)=="."){nota=cadea.substring(0,i+3);break;}}}
 fiestrar.document.write("<tr><td colspan='4' align='center' style='font-weight:bold'>Aciertos: "+acertos+" de "+nump+"</td></tr>")
-fiestrar.document.write("<tr><td colspan='4' align='center' style='font-weight:bold'>Nota: "+nota+"</td></tr>")
+fiestrar.document.write("<tr><td colspan='4' align='center' style='font-weight:bold'>Calificación: "+nota+"</td></tr>")
 fiestrar.document.write("</td></tr><tr><td colspan='4' align='center'><p><form><input type='button' value='Cerrar' name='pecharf' onClick='window.close()' style='font-weight:bold': #FFCC66'></form></td></tr></table></td></tr></table>")
 fiestrar.document.write("</table>")
 fiestrar.document.close()

@@ -26,6 +26,13 @@
   height: 30px;
 }
 
+.icon_inicio{
+  border-radius: 0px;
+  padding: 0px;
+  width: 40px;
+  height: 40px;
+}
+
 /* .flecha_arriba{
   position: absolute;
   width: 30px;

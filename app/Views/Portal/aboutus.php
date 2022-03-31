@@ -35,8 +35,8 @@
 								un software educativo, en el cual se pudiera encontrar información sobre la 
 								materia de historia.
 								<br><br>
-								Proyecto en el que nos encontramos actualmente. Y el espacion en en el que te 
-								encuentras actuamente es para presentar a los integrantes del equipo.
+								Proyecto en el que nos encontramos actualmente. Y el espacio en el que te 
+								encuentras actualmente es para presentar a los integrantes del equipo.
 							</p>
 
 		</div>
