@@ -24,7 +24,6 @@
 	
 	<!-- Aqui va el codigo del juego -->
 
-<!DOCTYPE html>
 <html><head>
 <title>Historia Universal</title>
 <style type="text/css"><!--
