@@ -23,8 +23,11 @@
 	<!-- Juegos -->
 	
 	<!-- Aqui va el codigo del juego -->
+<br>
+<br>
+<html><head>
 
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
 <script language="JavaScript">
 
@@ -169,9 +172,10 @@ fiestrar.document.close()
 <table><tbody><tr><td width="25">&nbsp;</td><td><font color="000000">d) </td><td><input type="radio" name="resp16"></td><td><font color="000000">Multicultural</td></tr></tbody></table>
 </td></tr>
 <tr><td height="50" align="center"><input type="hidden" value="acbddbacacbacdcd" name="tras">
-<input type="button" value="Puntuación" name="resultados" onclick="corrixe()" style="background-color: #FFCC66">
-<input type="reset" value="Limpiar" name="limpar" style="background-color: #FFCC66"></td></tr>
+<input style="font-weight:bold" type="button" value="Puntuación" name="resultados" onclick="corrixe()">
+<input style="font-weight:bold" type="reset" value="Limpiar" name="limpar"></td></tr>
 </tbody></table></form>
+</center>
 
 </body></html>
 
