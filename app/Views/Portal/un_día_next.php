@@ -129,8 +129,8 @@
 
 					<div class="news_page_nav">
 						<ul>
-							<li class="active text-center trans_200"><a href="<?= route_to('un_día');?>">01</a></li>
-							<li class="text-center trans_200"><a href="<?= route_to('un_día_next');?>">02</a></li>
+							<li class="text-center trans_200"><a href="<?= route_to('un_día');?>">01</a></li>
+							<li class="active text-center trans_200"><a href="<?= route_to('un_día_next');?>">02</a></li>
 							
 						</ul>
 					</div>
