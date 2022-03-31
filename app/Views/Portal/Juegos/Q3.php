@@ -30,9 +30,9 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
 <script language="JavaScript">
-
+	
 var alfab="abcdefghijklmnñopqrstuvxyz"
-var nump=18
+var nump=20
 var nrp=4
 function corrixe(){
 var acertos=0
@@ -52,7 +52,7 @@ fiestrar.document.write("<br>Hora: "+tempo.getHours()+":"+tempo.getMinutes())
 fiestrar.document.write("<br>Fecha: "+tempo.getDate()+"/"+eval(tempo.getMonth()+1)+"/"+tempo.getFullYear())
 fiestrar.document.write("<p align='center'><table>")
 fiestrar.document.write("<tr><td bgcolor='#ffb606' colspan='4' align='center' style='font-weight:bold'><font size='5'>Resultados</font><p></td></tr>")
-	fiestrar.document.write("<tr><td width='33' bgcolor='#43a5f2'>"+
+fiestrar.document.write("<tr><td width='33' bgcolor='#43a5f2'>"+
 "<p align='center'style='font-weight:bold'>Preguntas</td><td width='35' bgcolor='#21f604' align='center' style='font-weight:bold'>"+
 "Solución</td><td width='35' bgcolor='#f24343' align='center' style='font-weight:bold'>Respuestas</td>"+
 "<td width='35' bgcolor='#bdbdbd'style='font-weight:bold'><p align='center'>Resultados</td></tr>")
@@ -67,7 +67,7 @@ for(i=1;i<=sol.length;i++){
 	}
 	else{
 	fiestrar.document.write("<tr><td align='center'>"+i+"</td><td align='center'>"+resposta+
-	"</td><td align='center'>"+solucion+"</td><td align='center'><font color='#FF0000'>Incorrecta</font></td></tr>")
+	"</td><td align='center'>"+solucion+"</td><td align='center'><font color='#FF0000'>Incorreta</font></td></tr>")
 	}
 }
 nota=10/nump*acertos;
@@ -81,6 +81,7 @@ fiestrar.document.close()
 }
 
 </script></head>
+
 <body>
 <center>
 <form name="test">
