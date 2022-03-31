@@ -123,7 +123,7 @@
 								<a href="<?=route_to ('otro_lado_3');?>">Leer más</a>
 							</div>
 						</div>
-					</div>
+						</div>
 
 						<!-- News Post -->
 							<div class="news_post">
@@ -155,7 +155,7 @@
 								<a href="<?=route_to ('otro_lado_4');?>">Leer más</a>
 							</div>
 						</div>
-					</div>
+						</div>
 
 						<!-- News Post -->
 						<div class="news_post">
