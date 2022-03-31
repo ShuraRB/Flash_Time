@@ -205,7 +205,7 @@
 								</li>
 								<li class="footer_list_item">
 									<a href="<?= route_to('aboutus');?>">
-									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Persona-b.png');?>" alt="about_us">
+									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'about-b.png');?>" alt="about_us">
 									Sobre Nosotros</a>
 								</li>
 							</ul>
