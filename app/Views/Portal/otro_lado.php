@@ -39,7 +39,7 @@
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>24</div>
+										<div>26</div>
 										<div>MAR</div>
 									</div>
 								</div>
@@ -71,7 +71,7 @@
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>24</div>
+										<div>27</div>
 										<div>MAR</div>
 									</div>
 								</div>
@@ -102,7 +102,7 @@
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>24</div>
+										<div>28</div>
 										<div>MAR</div>
 									</div>
 								</div>
@@ -134,7 +134,7 @@
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>24</div>
+										<div>29</div>
 										<div>MAR</div>
 									</div>
 								</div>
@@ -166,7 +166,7 @@
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>24</div>
+										<div>30</div>
 										<div>MAR</div>
 									</div>
 								</div>
@@ -186,6 +186,40 @@
 							</div>
 							<div class="news_post_button text-center trans_200">
 								<a href="<?=route_to ('otro_lado_5');?>">Leer más</a>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- News Post -->
+					<div class="news_post">
+							<div class="news_post_image">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'colonia4.jpg');?>" alt="">
+							</div>
+							<div class="news_post_top d-flex flex-column flex-sm-row">
+								<div class="news_post_date_container">
+									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
+										<div>31</div>
+										<div>MAR</div>
+									</div>
+								</div>
+								<div class="news_post_title_container">
+									<div class="news_post_title">
+										<a href="news_post.html"> 13 Colonias</a>
+									</div>
+									<div class="news_post_meta">
+										<span class="news_post_author"><a href="#">Por: Ana Rugerio</a></span>
+										
+									</div>
+								</div>
+							</div>
+							<div class="news_post_text">
+								<p>Conocer los procesos de independencia de los países de América y 
+									el inicio de las revoluciones burguesas es fundamental para 
+									estudiar los temas de la Historia Universal  ...</p>
+							</div>
+							<div class="news_post_button text-center trans_200">
+								<a href="<?=route_to ('otro_lado_6');?>">Leer más</a>
 							</div>
 						</div>
 					</div>
