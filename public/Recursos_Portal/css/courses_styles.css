@@ -388,18 +388,19 @@ section
 }
 .header_side img
 {
-	width: 29px;
-	height: 29px;
+	width: 64px;
+	height: 64px;
 }
 .header_side span
 {
 	display: block;
 	position: relative;
-	font-size: 18px;
-	font-weight: 500;
+	font-size: 30px;
+	font-weight: 700;
 	color: #FFFFFF;
-	padding-left: 12px;
+	padding-left: 5px;
 }
+
 
 /*********************************
 3.4 Hamburger

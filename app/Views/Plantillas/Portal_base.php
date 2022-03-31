@@ -74,8 +74,8 @@
 		</div>
 		<div class="header_side d-flex flex-row justify-content-center align-items-center">
 			<a href="<?= route_to('un_día');?>">
-			<center><img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Persona.png');?>" alt="un_dia"></center>
-			<div>Sobre Nosotros</div></a>
+			<center><img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'about-b.png');?>" alt="un_dia"></center>
+			<div><span>Sobre Nosotros</span></div></a>
 		</div>
 
 		<!-- Hamburger -->
