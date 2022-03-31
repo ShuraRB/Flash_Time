@@ -13,6 +13,9 @@
 <link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_PLUGINS.'OwlCarousel2-2.2.1/owl.theme.default.css');?>">
 <link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_PLUGINS.'OwlCarousel2-2.2.1/animate.css');?>">
 <link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_CSS.'icon_responsive.css');?>">
+<!-- //Css para e boton de subir al inicio de la pagina -->
+<link href="<?= base_url(RECURSOS_PORTAL_CSS. 'gotop.css');?>" rel="stylesheet"> 
+
 <!-- ============================================================== -->
     <!-- This page css -->
     <!-- ============================================================== -->
@@ -70,7 +73,9 @@
 			</nav>
 		</div>
 		<div class="header_side d-flex flex-row justify-content-center align-items-center">
-
+			<a href="<?= route_to('un_día');?>">
+			<center><img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Persona.png');?>" alt="un_dia"></center>
+			<div>Sobre Nosotros</div></a>
 		</div>
 
 		<!-- Hamburger -->
@@ -117,14 +122,6 @@
 						<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'reloj.png');?>" alt="un_dia">
 						Un día como hoy</a>
 					</li>
-<<<<<<< HEAD
-=======
-					<li class="menu_item menu_mm"><a href="<?= route_to('Juegos');?>">Juegos</a></li>
-					<li class="menu_item menu_mm"><a href="<?= route_to('personajes');?>">Personajes Historicos</a></li>
-					<li class="menu_item menu_mm"><a href="<?= route_to('otro_lado');?>">El otro lado de la historia</a></li>
-					<li class="menu_item menu_mm"><a href="<?= route_to('un_día');?>">Un día como hoy</a></li>
->>>>>>> feaaac186c80911ff12287f8f61564cf5c8c6530
-			
 				</ul>
 			</div>
 
@@ -155,7 +152,7 @@
 						<div class="logo_container">
 							<div class="logo">
 								<a href="<?= route_to('inicio');?>">
-								<img class="icon_logo" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'libro.svg');?>" alt="">
+								<img class="icon_logo" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'libro-b.png');?>" alt="">
 								<span>Flash Time</span></a>
 							</div>
 						</div>
@@ -182,28 +179,33 @@
 							<ul>
 								<li class="footer_list_item">
 									<a href="<?= route_to('inicio');?>">
-									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'casa.png');?>" alt="inicio">
+									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'casa-b.png');?>" alt="inicio">
 									Inicio</a>
 								</li>
 								<li class="footer_list_item">
 									<a href="<?php route_to('juego');?>">
-									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick.png');?>" alt="juego">
+									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick-b.png');?>" alt="juego">
 									Juego</a>
 								</li>
 								<li class="footer_list_item">
 									<a href="<?= route_to('personajes');?>">
-									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'escudo.png');?>" alt="personajes">
+									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'escudo-b.png');?>" alt="personajes">
 									Personajes Historicos</a>
 								</li>
 								<li class="footer_list_item">
 										<a href="<?= route_to('otro_lado');?>">
-										<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'2caras.png');?>" alt="otro_lado">
+										<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'2caras-b.png');?>" alt="otro_lado">
 										El otro lado de la historia</a>
 								</li>
 								<li class="footer_list_item">
 									<a href="<?= route_to('un_día');?>">
-									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'reloj.png');?>" alt="un_dia">
+									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'reloj-b.png');?>" alt="un_dia">
 									Un día como hoy</a>
+								</li>
+								<li class="footer_list_item">
+									<a href="<?= route_to('un_día');?>">
+									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Persona-b.png');?>" alt="about_us">
+									Sobre Nosotros</a>
 								</li>
 							</ul>
 						</div>
@@ -226,6 +228,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Proye
 	</footer>
 
 </div>
+<!-- Boton que lleva al inicio de la pagina -->
+<div class="go-top-container">
+	<div class="go-top-button">
+		<img class="flecha_arriba" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'arriba.png');?>" alt="">
+	</div>
+</div>
 
 <script src="<?= base_url(RECURSOS_PORTAL_JS.'jquery-3.2.1.min.js');?>"></script>
 <script src="<?= base_url(RECURSOS_PORTAL_CSS.'bootstrap4/popper.js');?>"></script>
@@ -239,6 +247,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Proye
 <script src="<?= base_url(RECURSOS_PORTAL_PLUGINS.'scrollTo/jquery.scrollTo.min.js');?>"></script>
 <script src="<?= base_url(RECURSOS_PORTAL_PLUGINS.'easing/easing.js');?>"></script>
 <script src="<?= base_url(RECURSOS_PORTAL_JS.'custom.js');?>"></script>
+<!-- Boton para ir arriba de la pagina --> 
+<script type="text/javascript" src="<?= base_url(RECURSOS_PORTAL_JS. 'gotop.js');?>"></script>
+
 
     <!-- ============================================================== -->
     <!-- This page plugins -->

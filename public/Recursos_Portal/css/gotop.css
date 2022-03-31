@@ -1,0 +1,64 @@
+/* GOTOP */
+ 
+.go-top-container {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    width: 4.6rem;
+    height: 3.6rem;
+    z-index: -1;
+}
+ 
+.go-top-button {
+    width: 0rem;
+    height: 0rem;
+    background: #ffb606;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-30%, -40%);
+    z-index: -1;
+}
+ 
+.go-top-button .flecha_arriba {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 20%;
+    left: 20%;
+    transform: translate(10%, 10%) scale(0);
+    transition: 0.2s;
+}
+ 
+.show {
+    z-index: 10;
+}
+ 
+.show .go-top-button {
+    animation: popup 0.3s ease-in-out;
+    width: 3.6rem;
+    height: 3.6rem;
+    z-index: 11;
+}
+ 
+.show .flecha_arriba {
+    transform: translate(10%, 10%) scale(1);
+}
+ 
+@keyframes popup {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 5rem;
+        height: 5rem;
+    }
+    100% {
+        width: 3.6rem;
+        height: 3.6rem;
+    }
+}
