@@ -82,55 +82,7 @@
                 
 
 
-                <!-- Nueva columna de publicación -->
-
-				<div class="col-lg-8">
-
-<div class="news_post_container">
-    <!-- Nueva publicación -->
-    <div class="news_post">
-        <div class="news_post_image">
-            <img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'poder.jpg');?>">
-        </div>
-        <div class="news_post_top d-flex flex-column flex-sm-row">
-            
-            <div class="news_post_title_container">
-                <div class="news_post_title">
-                    <a href="news_post.html">Movimientos Intelectuales</a>
-                </div>
-                <div class="news_post_meta">
-                    <span class="news_post_author">subido por: Genaro</a></span>
-                    <!-- <span>|</span> -->
-                </div>
-            </div>
-        </div>
-        <div class="news_post_text">
-            <p> La Ilustración será un movimiento intelectual, racionalista y anticlerical que busca el desarrollo de la humanidad a través del uso de la RAZÓN, en contra de la influencia de la Iglesia.
-
-Su nombre viene de illustrare que significa dar luz; ellos pretendían dar la LUZ de la RAZÓN.
-
-Su antecedente directo es el Renacimiento de los siglos XV y XVI, movimiento en el cual el hombre comenzó a buscar explicaciones racioles acerca del mundo. Desde el Renacimiento hombres como Leonardo Da Vinci o Galileo Galilei postulan el uso de la observación y la experimentación para alcanzar explicaciones.
-
-El movimiento ilustrado busca romper con la visión dogmática de la Iglesia, imperante desde la Edad Media, y en cambio llama al hombre a hacer el esfuerzo de utilizar la RAZÓN y con ella dudar, criticar y reflexionar sobre su mundo.
-
-La RAZÓN consideran los ilustrados es la característica que distingue al hombre. La RAZÓN es la llave para abrir las puertas del destino, alcanzar avances y progreso.</p>
-        </div>
-        <div class="news_post_image">
-            <img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'pensador.jpg');?>">
-        </div>
-        <div class="news_post_quote">
-            <p class="news_post_quote_text">El grupo de los ilustrados estuvo compuesto por burgueses que en sus OBRAS expresaban su oposición al Antiguo Régimen</p>
-        </div>
-
-        <p class="news_post_text" style="margin-top: 59px;">La obra más importante de la Ilustración será la Enciclopedia, pues su objetivo era concentrar y difundir todo el conocimiento alcanzado por el hombre hasta su época. ¿Por qué?  los ilustrados buscan extender el conocimiento y con ello lograr romper las limitaciones del Estado Absolutista.
-
-La ilustración es un movimiento que llama a la revolución, promueven la exigencia de los derechos por parte de la población, promueven la lucha contra el absolutismo y proponen que en caso de que el monarca no respete a la sociedad se le destruya. </p>
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/7BRXo9IyYxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <!-- Fin de la publicación -->
-    </div>
-</div>
-</div>
+               
 
 				<!-- inicio de la columna -->
 				<div class="col-lg-4">
@@ -202,7 +154,56 @@ La ilustración es un movimiento que llama a la revolución, promueven la exigen
 					</div>
 				</div>
 				<!-- final de la columna -->
+                
+                 <!-- Nueva columna de publicación -->
 
+				<div class="col-lg-8">
+
+<div class="news_post_container">
+    <!-- Nueva publicación -->
+    <div class="news_post">
+        <div class="news_post_image">
+            <img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'poder.jpg');?>">
+        </div>
+        <div class="news_post_top d-flex flex-column flex-sm-row">
+            
+            <div class="news_post_title_container">
+                <div class="news_post_title">
+                    <a href="news_post.html">Movimientos Intelectuales</a>
+                </div>
+                <div class="news_post_meta">
+                    <span class="news_post_author">subido por: Genaro</a></span>
+                    <!-- <span>|</span> -->
+                </div>
+            </div>
+        </div>
+        <div class="news_post_text">
+            <p> La Ilustración será un movimiento intelectual, racionalista y anticlerical que busca el desarrollo de la humanidad a través del uso de la RAZÓN, en contra de la influencia de la Iglesia.
+
+Su nombre viene de illustrare que significa dar luz; ellos pretendían dar la LUZ de la RAZÓN.
+
+Su antecedente directo es el Renacimiento de los siglos XV y XVI, movimiento en el cual el hombre comenzó a buscar explicaciones racioles acerca del mundo. Desde el Renacimiento hombres como Leonardo Da Vinci o Galileo Galilei postulan el uso de la observación y la experimentación para alcanzar explicaciones.
+
+El movimiento ilustrado busca romper con la visión dogmática de la Iglesia, imperante desde la Edad Media, y en cambio llama al hombre a hacer el esfuerzo de utilizar la RAZÓN y con ella dudar, criticar y reflexionar sobre su mundo.
+
+La RAZÓN consideran los ilustrados es la característica que distingue al hombre. La RAZÓN es la llave para abrir las puertas del destino, alcanzar avances y progreso.</p>
+        </div>
+        <div class="news_post_image">
+            <img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'pensador.jpg');?>">
+        </div>
+        <div class="news_post_quote">
+            <p class="news_post_quote_text">El grupo de los ilustrados estuvo compuesto por burgueses que en sus OBRAS expresaban su oposición al Antiguo Régimen</p>
+        </div>
+
+        <p class="news_post_text" style="margin-top: 59px;">La obra más importante de la Ilustración será la Enciclopedia, pues su objetivo era concentrar y difundir todo el conocimiento alcanzado por el hombre hasta su época. ¿Por qué?  los ilustrados buscan extender el conocimiento y con ello lograr romper las limitaciones del Estado Absolutista.
+
+La ilustración es un movimiento que llama a la revolución, promueven la exigencia de los derechos por parte de la población, promueven la lucha contra el absolutismo y proponen que en caso de que el monarca no respete a la sociedad se le destruya. </p>
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/7BRXo9IyYxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- Fin de la publicación -->
+    </div>
+</div>
+</div>
 
 			</div>
 		</div>
