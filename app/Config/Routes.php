@@ -50,12 +50,17 @@ $routes->get('/Sopa', 'Portal\Juegos\Sopa::index',['as' => 'Sopa']);
 $routes->get('/Q1', 'Portal\Juegos\Q1::index',['as' => 'Q1']);
 $routes->get('/Q2', 'Portal\Juegos\Q2::index',['as' => 'Q2']);
 $routes->get('/Q3', 'Portal\Juegos\Q3::index',['as' => 'Q3']);
+//Rutas de un dia como hoy
 $routes->get('/public_one', 'Portal\publicaciones\public_one::index',['as' => 'public_one']);
 $routes->get('/public_two', 'Portal\publicaciones\public_two::index',['as' => 'public_two']);
 $routes->get('/public_three', 'Portal\publicaciones\public_three::index',['as' => 'public_three']);
 $routes->get('/public_four', 'Portal\publicaciones\public_four::index',['as' => 'public_four']);
 $routes->get('/public_five', 'Portal\publicaciones\public_five::index',['as' => 'public_five']);
 $routes->get('/public_six', 'Portal\publicaciones\public_six::index',['as' => 'public_six']);
+//Rutas para vistas grados
+$routes->get('/primero', 'Portal\publicaciones\primero::index',['as' => 'primero']);
+$routes->get('/segundo', 'Portal\publicaciones\segundo::index',['as' => 'segundo']);
+$routes->get('/tercero', 'Portal\publicaciones\tercero::index',['as' => 'tercero']);
 //Rutas personajes
 $routes->get('/hidalgo', 'Portal\Personajes\Hidalgo::index',['as' => 'hidalgo']);
 $routes->get('/morelos', 'Portal\Personajes\Morelos::index',['as' => 'morelos']);
