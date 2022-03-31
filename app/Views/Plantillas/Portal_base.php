@@ -74,7 +74,7 @@
 		</div>
 		<div class="header_side d-flex flex-row justify-content-center align-items-center">
 			<a href="<?= route_to('un_día');?>">
-			<center><img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'about.png');?>" alt="un_dia"></center>
+			<center><img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Persona.png');?>" alt="un_dia"></center>
 			<div>Sobre Nosotros</div></a>
 		</div>
 
@@ -179,28 +179,33 @@
 							<ul>
 								<li class="footer_list_item">
 									<a href="<?= route_to('inicio');?>">
-									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'casa.png');?>" alt="inicio">
+									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'casa-b.png');?>" alt="inicio">
 									Inicio</a>
 								</li>
 								<li class="footer_list_item">
 									<a href="<?php route_to('juego');?>">
-									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick.png');?>" alt="juego">
+									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick-b.png');?>" alt="juego">
 									Juego</a>
 								</li>
 								<li class="footer_list_item">
 									<a href="<?= route_to('personajes');?>">
-									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'escudo.png');?>" alt="personajes">
+									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'escudo-b.png');?>" alt="personajes">
 									Personajes Historicos</a>
 								</li>
 								<li class="footer_list_item">
 										<a href="<?= route_to('otro_lado');?>">
-										<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'2caras.png');?>" alt="otro_lado">
+										<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'2caras-b.png');?>" alt="otro_lado">
 										El otro lado de la historia</a>
 								</li>
 								<li class="footer_list_item">
 									<a href="<?= route_to('un_día');?>">
-									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'reloj.png');?>" alt="un_dia">
+									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'reloj-b.png');?>" alt="un_dia">
 									Un día como hoy</a>
+								</li>
+								<li class="footer_list_item">
+									<a href="<?= route_to('un_día');?>">
+									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Persona-b.png');?>" alt="about_us">
+									Sobre Nosotros</a>
 								</li>
 							</ul>
 						</div>
