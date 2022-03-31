@@ -152,7 +152,7 @@
 						<div class="logo_container">
 							<div class="logo">
 								<a href="<?= route_to('inicio');?>">
-								<img class="icon_logo" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'libro.svg');?>" alt="">
+								<img class="icon_logo" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'libro-b.png');?>" alt="">
 								<span>Flash Time</span></a>
 							</div>
 						</div>
