@@ -36,13 +36,13 @@
 						<!-- Nueva publicación -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'phil.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'levantamiento.jpg');?>">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">Revolución Industrial</a>
+										<a href="news_post.html">Revolución Mexicana Primera Etapa.</a>
 									</div>
 									<div class="news_post_meta">
 										<span class="news_post_author">subido por: Genaro</a></span>
@@ -51,28 +51,32 @@
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p> La Revolución Industrial tuvo su origen en Inglaterra, donde se daban unas condiciones políticas, 
-                socioeconómicas y geográficas adecuadas. Pero, ¿cuándo fue la Revolución Industrial? Tuvo su origen 
-                aproximadamente hacia el año 1760 y concluyó en la década de 1840. La máquina de vapor fue la base sobre
-                 la que se asentó todo el desarrollo que vino propiciado como consecuencia de la Revolución Industrial. 
-                 Este invento fue posible gracias a algunos elementos, como la existencia de combustibles como el carbón o el hierro.
-                Junto a estos elementos, otros factores hicieron posible que la Revolución Industrial surgiese,
-                 se desarrollase en Inglaterra y diera pie a importantes cambios que generaron un gran impacto en la sociedad.</p>
+								<p> Porfiriato
+La Revolución Mexicana se dio a causa del Porfiriato, periodo que refiere a la dictadura de Porfirio Díaz impuesta desde 1876.
+
+La fracción opositora estaba a cargo de Francisco I. Madero, quien formó el Partido Anti-Reeleccionista para presentarse como candidato en 1910, comandando posteriormente la revuelta del Plan de San Luis Potosí.
+
+Este movimiento fue promovido principalmente por los campesinos, quienes buscaban reivindicaciones laborales y sociales. El gobierno de Porfirio Díaz se caracterizó por estabilizar la economía del país, pero a cambio de desfavorecer a las clases más bajas.
+
+Madero fue encarcelado y perdió ante Díaz en el proceso electoral, por lo que tuvo que exiliarse y escapar a Estados Unidos.</p>
 							</div>
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'maquina.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'madera.jpg');?>">
 							</div>
 							<div class="news_post_quote">
-								<p class="news_post_quote_text">Máquina de arado textil, dejando de lado el trabajo de mano de obra.</p>
+								<p class="news_post_quote_text">Madero ordenó el desarme de las diversas fracciones e impulsó cambios político-sociales como el fin de la reelección y la ampliación del electorado.</p>
 							</div>
 
-							<p class="news_post_text" style="margin-top: 59px;">Por una parte, la Revolución burguesa del siglo XVII
-                             había triunfado, dándose con ello la abolición del sistema feudal. El sistema se basaba en una monarquía
-                              que había desechado el absolutismo que se daba en otros países europeos.
-                            Como consecuencia, Inglaterra vivió una época de estabilidad, sin sobresaltos
-                             revolucionarios y con unas mayores libertades civiles. </p>
+							<p class="news_post_text" style="margin-top: 59px;">La Revolución Maderista
+Desde los Estados Unidos, Francisco I. Madero comenzó a planificar el movimiento revolucionario; el 20 de noviembre de 1910 comenzaron los levantamientos armados. El préambulo tuvo lugar en Puebla, cuando los Hermanos Serdán fueron descubiertos en sus planes de rebelión.
 
-                             <iframe width="640" height="360" src="https://www.youtube.com/embed/AgMWGOTUSco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+A la fracción opositora se unieron Francisco Pancho Villa, en los estados del norte, y Emiliano Zapata, encargado de las regiones del sur. A la par, Madero regresó al país e invadió Ciudad Juárez.
+
+El gobierno de Porfirio Díaz se sintió presionado, por lo que removió a todo su gabinete e impulsó una nueva norma para impedir la reelección, decisión que no fue suficiente para los rebeldes, por lo que retomaron el conflicto armado e instalaron un gobierno provisional presidido por Madero.
+
+Porfirio terminó por renunciar el 25 de mayo de 1911 escapando y exiliándose en Francia. En México, se convocaron a nuevas elecciones ante el fracaso del gobierno de Francisco León de la Barra, proceso en el que Madero se llevó la victoria. </p>
+
+                            <iframe width="640" height="360" src="https://www.youtube.com/embed/JRKRoDjAx74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							<!-- Fin de la publicación -->
                             <br>
                             <br>
@@ -163,13 +167,13 @@
     <!-- Nueva publicación -->
     <div class="news_post">
         <div class="news_post_image">
-            <img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'poder.jpg');?>">
+            <img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'tierras.jpg');?>">
         </div>
         <div class="news_post_top d-flex flex-column flex-sm-row">
             
             <div class="news_post_title_container">
                 <div class="news_post_title">
-                    <a href="news_post.html">Movimientos Intelectuales</a>
+                    <a href="news_post.html">Revolución Méxicana Segunda Etapa</a>
                 </div>
                 <div class="news_post_meta">
                     <span class="news_post_author">subido por: Genaro</a></span>
@@ -178,28 +182,31 @@
             </div>
         </div>
         <div class="news_post_text">
-            <p> La Ilustración será un movimiento intelectual, racionalista y anticlerical que busca el desarrollo de la humanidad a través del uso de la RAZÓN, en contra de la influencia de la Iglesia.
+            <p> La Revolución Constitucionalista
+Victoriano Huerta buscó estabilizar el país, aunque tenía como obstáculo al Congreso, por lo que decidió disolverlo; su gran fracaso fue no obtener el apoyo de Woodrow Wilson, presidente de Estados Unidos, quien le pidió la realización de elecciones libres sin su participación.
 
-Su nombre viene de illustrare que significa dar luz; ellos pretendían dar la LUZ de la RAZÓN.
+Fue en Coahuila donde comenzó a formarse su oposición al mando del gobernador Venustiano Carranza, a quien su congreso le otorgó poderes para organizar una fuerza militar y recuperar la democracia. A este Ejército se le conoció como el Ejército Constitucionalista, que dio inicio a una lucha revolucionaria del mismo nombre.
 
-Su antecedente directo es el Renacimiento de los siglos XV y XVI, movimiento en el cual el hombre comenzó a buscar explicaciones racioles acerca del mundo. Desde el Renacimiento hombres como Leonardo Da Vinci o Galileo Galilei postulan el uso de la observación y la experimentación para alcanzar explicaciones.
+El país volvió a desestabilizarse. En Veracruz, las tropas de Estados Unidos ocuparon el estado en 1914, mientras el ejército de Villa dominaba el norte y el centro, el de Álvaro Obregón el oeste y el de Pablo González el este.
 
-El movimiento ilustrado busca romper con la visión dogmática de la Iglesia, imperante desde la Edad Media, y en cambio llama al hombre a hacer el esfuerzo de utilizar la RAZÓN y con ella dudar, criticar y reflexionar sobre su mundo.
-
-La RAZÓN consideran los ilustrados es la característica que distingue al hombre. La RAZÓN es la llave para abrir las puertas del destino, alcanzar avances y progreso.</p>
+Huerta terminó por renunciar el 15 de julio de 1914, mientras que el Ejército Constitucionalista ocupó la capital del país y convocó a la Convención de Aguascalientes.</p>
         </div>
         <div class="news_post_image">
-            <img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'pensador.jpg');?>">
+            <img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'villa.jpg');?>">
         </div>
         <div class="news_post_quote">
-            <p class="news_post_quote_text">El grupo de los ilustrados estuvo compuesto por burgueses que en sus OBRAS expresaban su oposición al Antiguo Régimen</p>
+            <p class="news_post_quote_text">La guerra comenzó de nueva cuenta en México, siendo hasta 1916 cuando Carranza logró recuperar la capital y, posteriormente, el control del país</p>
         </div>
 
-        <p class="news_post_text" style="margin-top: 59px;">La obra más importante de la Ilustración será la Enciclopedia, pues su objetivo era concentrar y difundir todo el conocimiento alcanzado por el hombre hasta su época. ¿Por qué?  los ilustrados buscan extender el conocimiento y con ello lograr romper las limitaciones del Estado Absolutista.
+        <p class="news_post_text" style="margin-top: 59px;">Para muchos, el final de la Revolución Mexicana se dio con la proclamación de la Constitución; algunos académicos sitúan el término en 1920 y otros 20 años después, debido al tiempo que tomó que las grandes reformas lograran aplicarse.
 
-La ilustración es un movimiento que llama a la revolución, promueven la exigencia de los derechos por parte de la población, promueven la lucha contra el absolutismo y proponen que en caso de que el monarca no respete a la sociedad se le destruya. </p>
+En México persistían ocho ejércitos rebeldes con los principales líderes cayendo. Primero fue Emiliano Zapata, asesinado por una trampa desde el gobierno de Venustiano Carranza, quien terminó por ser derribado el 21 de mayo de 1920 tras ser emboscado en Puebla.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/7BRXo9IyYxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Con Álvaro Obregón en el poder, Francisco Villa también fue asesinado el 20 de julio de 1923. Las siguientes batallas fueron de orden constitucional e ideológico, como la de Plutarco Elías Calles en su gobierno contra la Iglesia Católica.
+
+Entre otras cosas, se abolió el sistema de hacienda, se reconocieron formalmente los sindicatos y las organizaciones agrícolas, además de que comenzó el desarrollo de la industria petrolera y se pasó a un sistema económico mixto. </p>
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/HGmwmpJKbtM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <!-- Fin de la publicación -->
     </div>
 </div>
