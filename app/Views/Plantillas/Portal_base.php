@@ -73,7 +73,9 @@
 			</nav>
 		</div>
 		<div class="header_side d-flex flex-row justify-content-center align-items-center">
-
+			<a href="<?= route_to('un_día');?>">
+			<center><img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'about.png');?>" alt="un_dia"></center>
+			<div>Sobre Nosotros</div></a>
 		</div>
 
 		<!-- Hamburger -->
@@ -120,14 +122,6 @@
 						<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'reloj.png');?>" alt="un_dia">
 						Un día como hoy</a>
 					</li>
-<<<<<<< HEAD
-=======
-					<li class="menu_item menu_mm"><a href="<?= route_to('Juegos');?>">Juegos</a></li>
-					<li class="menu_item menu_mm"><a href="<?= route_to('personajes');?>">Personajes Historicos</a></li>
-					<li class="menu_item menu_mm"><a href="<?= route_to('otro_lado');?>">El otro lado de la historia</a></li>
-					<li class="menu_item menu_mm"><a href="<?= route_to('un_día');?>">Un día como hoy</a></li>
->>>>>>> feaaac186c80911ff12287f8f61564cf5c8c6530
-			
 				</ul>
 			</div>
 
@@ -229,6 +223,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Proye
 	</footer>
 
 </div>
+<!-- Boton que lleva al inicio de la pagina -->
 <div class="go-top-container">
 	<div class="go-top-button">
 		<img class="flecha_arriba" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'arriba.png');?>" alt="">
