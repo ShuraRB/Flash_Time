@@ -66,6 +66,9 @@ $routes->get('/tercero', 'Portal\grados\tercero::index',['as' => 'tercero']);
 //Rutas personajes
 $routes->get('/hidalgo', 'Portal\Personajes\Hidalgo::index',['as' => 'hidalgo']);
 $routes->get('/morelos', 'Portal\Personajes\Morelos::index',['as' => 'morelos']);
+$routes->get('/benito', 'Portal\Personajes\Benito::index',['as' => 'benito']);
+$routes->get('/madero', 'Portal\Personajes\Madero::index',['as' => 'madero']);
+$routes->get('/huerta', 'Portal\Personajes\Huerta::index',['as' => 'huerta']);
 $routes->get('/law', 'Portal\Personajes\Law::index',['as' => 'law']);
 //Rutas de las publicaciones de la otra cara de la historia
 $routes->get('/otro_lado_1', 'Portal\El_otro_lado_de_la_historia\Otro_lado_1::index',['as' => 'otro_lado_1']);
