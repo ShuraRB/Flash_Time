@@ -6,6 +6,7 @@ window.onscroll = function(){
     }
     else{
       document.querySelector('.go-top-container').classList.remove('show');
+      document.querySelector('.flecha_arriba{').classList.remove('show');
     }
   }
    

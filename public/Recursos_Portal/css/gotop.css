@@ -23,13 +23,13 @@
     z-index: -1;
 }
  
-.go-top-button i {
+.go-top-button .flecha_arriba {
     position: absolute;
-    font-size: 1.7rem;
-    top: 50%;
-    left: 50%;
-    transform: translate(-30%, -40%) scale(0);
-    color: #fff;
+    width: 30px;
+    height: 30px;
+    top: 22%;
+    left: 22%;
+    transform: translate(10%, 10%) scale(0);
     transition: 0.2s;
 }
  
@@ -44,8 +44,8 @@
     z-index: 11;
 }
  
-.show i {
-    transform: translate(-30%, -40%) scale(1);
+.show .flecha_arriba {
+    transform: translate(10%, 10%) scale(1);
 }
  
 @keyframes popup {
