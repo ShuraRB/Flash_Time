@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controllers\Portal\publicaciones;
+namespace App\Controllers\Portal\grados;
 use App\Controllers\BaseController;
 
 class primero extends BaseController
@@ -11,7 +11,7 @@ class primero extends BaseController
     } //Cierra __construct
     public function index()
     {
-        return $this->Crear_vista('Portal/publicaciones/primero', $this->cargar_datos());
+        return $this->Crear_vista('Portal/grados/primero', $this->cargar_datos());
     }//cierra el index
 
     private function cargar_datos()//Declaración arreglo de 

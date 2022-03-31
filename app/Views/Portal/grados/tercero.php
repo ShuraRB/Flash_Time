@@ -17,7 +17,7 @@
 		</div>
 		<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 			<div class="hero_slide_content text-center">
-				<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"><span>La otra cara de la historia</span> ...</h1>
+				<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"><span>TEMARIO</span> ...</h1>
 			</div>
 		</div>
 	</div>
@@ -47,10 +47,10 @@
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">Tercera de Secundaria</a>
+										<a href="news_post.html">Tercero de Secundaria</a>
 									</div>
 									<div class="news_post_meta">
-										<span class="news_post_author">Por: Ana Rugerio</a></span>
+										<span class="news_post_author">subido por: Genaro</a></span>
 										<!-- <span>|</span> -->
 									</div>
 								</div>
@@ -91,15 +91,14 @@
 						<!-- Archives -->
 						<div class="sidebar_section">
 							<div class="sidebar_section_title">
-								<h3>Articulos Completos</h3>
+								<h3>Temario</h3>
+								<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'temario.png');?>" alt="un_dia">
 							</div>
 							<ul class="sidebar_list">
-								<li class="sidebar_list_item"><a href="#">Natalicio Benito Juárez</a></li>
-								<li class="sidebar_list_item"><a href="#">Inauguración de la Suprema Corte de Justicia</a></li>
-								<li class="sidebar_list_item"><a href="#">Promulgación del plan de guadalupe</a></li>
-								<li class="sidebar_list_item"><a href="#">Heroica defensa del puerto de Veracruz</a></li>
-								<li class="sidebar_list_item"><a href="#">Toma de Querétaro</a></li>
-								<li class="sidebar_list_item"><a href="#">Fundación de Petróleos Mexicanos PEMEX</a></li>
+								<li class="sidebar_list_item"><a href="<?= route_to('primero');?>">Primero de secundaria</a></li>
+								<li class="sidebar_list_item"><a href="<?= route_to('segundo');?>">Segundo de secundaria</a></li>
+								<li class="sidebar_list_item"><a href="<?= route_to('tercero');?>">Tercero de secundaria</a></li>
+								
 							</ul>
 						</div>
 
