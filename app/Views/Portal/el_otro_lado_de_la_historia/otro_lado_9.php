@@ -17,7 +17,7 @@
 		</div>
 		<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 			<div class="hero_slide_content text-center">
-				<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Un <span> día </span> como <span>hoy</span> ...</h1>
+				<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"><span>La otra cara de la historia</span> ...</h1>
 			</div>
 		</div>
 	</div>
@@ -36,50 +36,65 @@
 						<!-- Nueva publicación -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Plan.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'nomadas2.jpeg');?>">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>25</div>
-										<div>mar</div>
+										<div>31</div>
+										<div>MAR</div>
 									</div>
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">Promulgación del Plan de Guadalupe.</a>
+										<a href="news_post.html">De nómadas a sedentarios</a>
 									</div>
 									<div class="news_post_meta">
-										<span class="news_post_author">Subido por: Genaro</a></span>
+										<span class="news_post_author">Por: Ana Rugerio</a></span>
 										<!-- <span>|</span> -->
 									</div>
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p> Con el asesinato de Madero, acaecido el 22 de febrero de 1913, la lucha armada iniciada en noviembre de 1910 dio un giro importante,
-									pues se dieron una serie de sucesos que extenderían por largo tiempo el conflicto. La usurpación de Victoriano Huerta en la presidencia
-									 de la República motivó, en buena medida, la negativa de los líderes revolucionarios a deponer las armas, al tiempo de propiciar la formación de otros grupos armados.
-									El 26 de marzo de 1913, el gobernador de Coahuila, Venustiano Carranza Garza — quien era partidario del maderismo– promulgó el Plan de Guadalupe,
-									 con el cual, de acuerdo con estudiosos del periodo, se inició la revolución constitucionalista.</p>
+								<p>La teoría más conocida sobre los primeros humanos que llegaron a América 
+									señala que vinieron desde Asia, cuando gran parte del agua de los océanos 
+									estaba congelada en enormes glaciares; sin embargo, de-jaba al descubierto 
+									algunos pasos de tierra, como el que se formó en el estrecho de Bering que 
+									separa Asia de Norteamérica. Durante milenios, los habitantes de América se 
+									agruparon en bandas de cazadores y reco-lectores que llevaban una vida nómada, 
+									es decir, caminaban de un lugar a otro en busca de alimentos. Se refugiaban en 
+									cuevas, comían frutos, semillas y cazaban megafauna americana: mamuts, caballos, 
+									antílopes y bisontes, hoy extintos.
 							</div>
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'firma.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'nomadas3.jpg');?>">
 							</div>
 							<div class="news_post_quote">
-								<p class="news_post_quote_text"> Foto del congreso constituyente en el momento de la firma del plan de guadalupe por Venuztiano Carranza.</p>
+								<p class="news_post_quote_text"><span>“E</span>n la actualidad, 82% de las familias mexicanas 
+								incluye tortillas en su dieta diaria. Sin embargo, a diferencia de lo que ocurría en el México 
+								prehispánico, hoy, nuestro país no produce la totalidad del maíz que consume su población; al año, 
+								México importa de Estados Unidos cerca de 10 millones de toneladas de dicho grano.”.</p>
 							</div>
 
-							<p class="news_post_text" style="margin-top: 59px;">La deposición de Huerta se logró en 1914, pero ello no contribuyó al cese de las hostilidades
-							 entre los diferentes grupos revolucionarios. La organización de la Convención de Aguascalientes, formada por diversos altos mandos militares y su ruptura
-							  con el Ejército Constitucionalista de Carranza, desatarían la siguiente etapa de la lucha armada entre estas facciones, la cual finalizaría hasta 1916. </p>
+							<p class="news_post_text" style="margin-top: 59px;">Alrededor del año 5000 a.n.e., los pobladores que 
+							se fueron asen-tando poco a poco comenzaron a cultivar plantas como chile, frijol, aguacate y calabaza, 
+							ya que aprendieron a elegir las mejores semillas y las protegían de la maleza. De especial importancia 
+							fue la domestica-ción del maíz, entre el 5000 y el 2500 a.n.e., porque signiﬁcó el paso de la vida nómada 
+							a la sedentaria. Los antiguos mexicanos se volvieron agricultores y formaron aldeas más o menos ﬁjas. Con 
+							el tiempo, estos asentamientos mostraron una mayor diferenciación social: había quie-nes practicaban la 
+							agricultura, mientras otros cumplían funciones de defensa o religiosas. Al crecer, las aldeas dieron origen 
+							a las ciudades.	 </p>
 
-                                    <h3>Video Explicativo:</h3>
-									<iframe width="640" height="360" src="https://www.youtube.com/embed/3QTU-VSm310" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									<!--<iframe width="640" height="360" src="https://www.youtube.com/embed/tsQMOR2y7fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+							<div class="news_post_image">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'nomadas4.jpg');?>">
+							</div>
+
+							
 							<!-- Fin de la publicación -->
 						</div>
 					</div>
 				</div>
+
 
 				<!-- inicio de la columna -->
 				<div class="col-lg-4">
@@ -87,14 +102,16 @@
 
 						<!-- Archives -->
 						<div class="sidebar_section">
-						    <div class="sidebar_section_title">
-								<h3>Temario</h3>
-								<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'temario.png');?>" alt="un_dia">
+							<div class="sidebar_section_title">
+								<h3>Articulos Completos</h3>
 							</div>
 							<ul class="sidebar_list">
-							<li class="sidebar_list_item"><a href="<?= route_to('primero');?>">Primero de secundaria</a></li>
-								<li class="sidebar_list_item"><a href="<?= route_to('segundo');?>">Segundo de secundaria</a></li>
-								<li class="sidebar_list_item"><a href="<?= route_to('tercero');?>">Tercero de secundaria</a></li>
+								<li class="sidebar_list_item"><a href="#">Natalicio Benito Juárez</a></li>
+								<li class="sidebar_list_item"><a href="#">Inauguración de la Suprema Corte de Justicia</a></li>
+								<li class="sidebar_list_item"><a href="#">Promulgación del plan de guadalupe</a></li>
+								<li class="sidebar_list_item"><a href="#">Heroica defensa del puerto de Veracruz</a></li>
+								<li class="sidebar_list_item"><a href="#">Toma de Querétaro</a></li>
+								<li class="sidebar_list_item"><a href="#">Fundación de Petróleos Mexicanos PEMEX</a></li>
 							</ul>
 						</div>
 
@@ -112,7 +129,7 @@
 									<div class="latest_post_image">
 										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'defensa.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
 									</div>
-									<div class="latest_post_title"><a href="<?= route_to('public_four');?>">Heroica defensa del puerto de Veracruz</a></div>
+									<div class="latest_post_title"><a href="news_post.html">Heroica defensa del puerto de Veracruz</a></div>
 									<div class="latest_post_meta">
 										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
 										
@@ -124,7 +141,7 @@
 									<div class="latest_post_image">
 										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Queretaro.jpg');?>" alt="https://unsplash.com/@erothermel">
 									</div>
-									<div class="latest_post_title"><a href="<?= route_to('public_five');?>">Toma de Querétaro</a></div>
+									<div class="latest_post_title"><a href="news_post.html">Toma de Querétaro</a></div>
 									<div class="latest_post_meta">
 										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
 										
@@ -136,7 +153,7 @@
 									<div class="latest_post_image">
 										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Pemex.jpg');?>" alt="https://unsplash.com/@element5digital">
 									</div>
-									<div class="latest_post_title"><a href="<?= route_to('public_six');?>">Fundación de Petróleos Mexicanos PEMEX</a></div>
+									<div class="latest_post_title"><a href="news_post.html">Fundación de Petróleos Mexicanos PEMEX</a></div>
 									<div class="latest_post_meta">
 										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
 										

@@ -17,7 +17,7 @@
 		</div>
 		<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
 			<div class="hero_slide_content text-center">
-				<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Un <span> día </span> como <span>hoy</span> ...</h1>
+				<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"><span>La otra cara de la historia</span> ...</h1>
 			</div>
 		</div>
 	</div>
@@ -36,50 +36,64 @@
 						<!-- Nueva publicación -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Plan.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'mesoamerica1.jpg');?>">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>25</div>
-										<div>mar</div>
+										<div>31</div>
+										<div>MAR</div>
 									</div>
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">Promulgación del Plan de Guadalupe.</a>
+										<a href="news_post.html">Las ciudades mesoamericanas</a>
 									</div>
 									<div class="news_post_meta">
-										<span class="news_post_author">Subido por: Genaro</a></span>
+										<span class="news_post_author">Por: Ana Rugerio</a></span>
 										<!-- <span>|</span> -->
 									</div>
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p> Con el asesinato de Madero, acaecido el 22 de febrero de 1913, la lucha armada iniciada en noviembre de 1910 dio un giro importante,
-									pues se dieron una serie de sucesos que extenderían por largo tiempo el conflicto. La usurpación de Victoriano Huerta en la presidencia
-									 de la República motivó, en buena medida, la negativa de los líderes revolucionarios a deponer las armas, al tiempo de propiciar la formación de otros grupos armados.
-									El 26 de marzo de 1913, el gobernador de Coahuila, Venustiano Carranza Garza — quien era partidario del maderismo– promulgó el Plan de Guadalupe,
-									 con el cual, de acuerdo con estudiosos del periodo, se inició la revolución constitucionalista.</p>
+								<p>Los primeros grandes centros ceremoniales mesoa-mericanos fueron 
+									construidos en el golfo de México, donde se desarrolló la culturaolmeca. 
+									Uno de sus principales asentamientos fue La Venta (900-400 a.n.e.), en 
+									el actual estado de Tabasco; allí, se erigió la primera pirámide en América. 
+									En otras regiones de Mesoamérica también se desarrollaron culturas de estilo 
+									olmeca. Además de sus construcciones, los ol-mecas sentaron las bases culturales 
+									y tecnológicas de las futuras culturas mesoamericanas, como la es-critura y el calendario. </p>
 							</div>
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'firma.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'mesoamerica2.jpg');?>">
 							</div>
 							<div class="news_post_quote">
-								<p class="news_post_quote_text"> Foto del congreso constituyente en el momento de la firma del plan de guadalupe por Venuztiano Carranza.</p>
+								<p class="news_post_quote_text"><span>“L</span> a cultura está constituida por saberes, 
+								costumbres y tradiciones de un pueblo, también incluye sus modos de vida, actividades 
+								económicas, así como sus manifestaciones artísticas y religiosas”.</p>
 							</div>
 
-							<p class="news_post_text" style="margin-top: 59px;">La deposición de Huerta se logró en 1914, pero ello no contribuyó al cese de las hostilidades
-							 entre los diferentes grupos revolucionarios. La organización de la Convención de Aguascalientes, formada por diversos altos mandos militares y su ruptura
-							  con el Ejército Constitucionalista de Carranza, desatarían la siguiente etapa de la lucha armada entre estas facciones, la cual finalizaría hasta 1916. </p>
+							<p class="news_post_text" style="margin-top: 59px;">Algunas de las ciudades más representativas 
+							del México antiguo se desarrollaron a ﬁnales del Preclásico y durante el Clásico. Para el año 
+							600 n.e., la ciudad zapoteca de Monte Albán (Oaxa-ca) tenía cerca de 30 000 habitantes, 
+							mientras que Teotihuacan (Estado de México) con-taba con alrededor de 150 000 a 200 000 habitantes	 </p>
 
-                                    <h3>Video Explicativo:</h3>
-									<iframe width="640" height="360" src="https://www.youtube.com/embed/3QTU-VSm310" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									<!--<iframe width="640" height="360" src="https://www.youtube.com/embed/tsQMOR2y7fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+							<div class="news_post_image">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'mesoamerica3.jpg');?>">
+							</div>
+
+							<p class="news_post_text" style="margin-top: 59px;">La población de las ciudades del Clásico era 
+							muy diversiﬁcada: había agricultores, artesanos, comerciantes y gobernantes. Las ediﬁcaciones 
+							religiosas y políticas fueron construidas con piedras y materiales dura-deros, de acuerdo con 
+							un plan de urbanización. Allí se llevaban a cabo ceremonias y se transmitían mensajes políticos 
+							y religiosos. La mayoría de los habitantes vivía en las orillas de estos centros.	 </p>
+
+
 							<!-- Fin de la publicación -->
 						</div>
 					</div>
 				</div>
+
 
 				<!-- inicio de la columna -->
 				<div class="col-lg-4">
@@ -87,14 +101,16 @@
 
 						<!-- Archives -->
 						<div class="sidebar_section">
-						    <div class="sidebar_section_title">
-								<h3>Temario</h3>
-								<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'temario.png');?>" alt="un_dia">
+							<div class="sidebar_section_title">
+								<h3>Articulos Completos</h3>
 							</div>
 							<ul class="sidebar_list">
-							<li class="sidebar_list_item"><a href="<?= route_to('primero');?>">Primero de secundaria</a></li>
-								<li class="sidebar_list_item"><a href="<?= route_to('segundo');?>">Segundo de secundaria</a></li>
-								<li class="sidebar_list_item"><a href="<?= route_to('tercero');?>">Tercero de secundaria</a></li>
+								<li class="sidebar_list_item"><a href="#">Natalicio Benito Juárez</a></li>
+								<li class="sidebar_list_item"><a href="#">Inauguración de la Suprema Corte de Justicia</a></li>
+								<li class="sidebar_list_item"><a href="#">Promulgación del plan de guadalupe</a></li>
+								<li class="sidebar_list_item"><a href="#">Heroica defensa del puerto de Veracruz</a></li>
+								<li class="sidebar_list_item"><a href="#">Toma de Querétaro</a></li>
+								<li class="sidebar_list_item"><a href="#">Fundación de Petróleos Mexicanos PEMEX</a></li>
 							</ul>
 						</div>
 
@@ -112,7 +128,7 @@
 									<div class="latest_post_image">
 										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'defensa.jpg');?>" alt="https://unsplash.com/@dsmacinnes">
 									</div>
-									<div class="latest_post_title"><a href="<?= route_to('public_four');?>">Heroica defensa del puerto de Veracruz</a></div>
+									<div class="latest_post_title"><a href="news_post.html">Heroica defensa del puerto de Veracruz</a></div>
 									<div class="latest_post_meta">
 										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
 										
@@ -124,7 +140,7 @@
 									<div class="latest_post_image">
 										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Queretaro.jpg');?>" alt="https://unsplash.com/@erothermel">
 									</div>
-									<div class="latest_post_title"><a href="<?= route_to('public_five');?>">Toma de Querétaro</a></div>
+									<div class="latest_post_title"><a href="news_post.html">Toma de Querétaro</a></div>
 									<div class="latest_post_meta">
 										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
 										
@@ -136,7 +152,7 @@
 									<div class="latest_post_image">
 										<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Pemex.jpg');?>" alt="https://unsplash.com/@element5digital">
 									</div>
-									<div class="latest_post_title"><a href="<?= route_to('public_six');?>">Fundación de Petróleos Mexicanos PEMEX</a></div>
+									<div class="latest_post_title"><a href="news_post.html">Fundación de Petróleos Mexicanos PEMEX</a></div>
 									<div class="latest_post_meta">
 										<span class="latest_post_author"><a href="#">Subido por Genaro</a></span>
 										

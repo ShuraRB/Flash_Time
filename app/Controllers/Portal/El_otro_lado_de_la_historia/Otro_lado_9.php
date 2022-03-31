@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Controllers\Portal\grados;
+namespace App\Controllers\Portal\El_otro_lado_de_la_historia;
 use App\Controllers\BaseController;
 
-class tercero extends BaseController
+class Otro_lado_9 extends BaseController
 {
     public function __construct()
     {
@@ -11,14 +11,14 @@ class tercero extends BaseController
     } //Cierra __construct
     public function index()
     {
-        return $this->Crear_vista('Portal/grados/tercero', $this->cargar_datos());
+        return $this->Crear_vista('Portal/el_otro_lado_de_la_historia/otro_lado_9', $this->cargar_datos());
     }//cierra el index
 
     private function cargar_datos()//Declaración arreglo de 
     {
         $datos = array();
         //
-        $datos['Nombre_pagina'] = 'tercero';
+        $datos['Nombre_pagina'] = 'otro_lado_9';
 
         return $datos;
     }//Final de cargar datos

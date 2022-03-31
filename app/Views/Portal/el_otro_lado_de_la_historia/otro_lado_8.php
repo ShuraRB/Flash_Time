@@ -36,7 +36,7 @@
 						<!-- Nueva publicación -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'moviemiento2.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'movimiento2.jpg');?>">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -78,10 +78,10 @@
 							derechos políticos, territoriales y culturales de los pueblos indígenas de nuestro país	 </p>
 
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'movimiento4.png');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'movimiento4.jpg');?>">
 							</div>
 
-							<iframe width="640" height="360" src="https://www.youtube.com/embed/MKY69EKvTrc?list=RDCMUCVvYB5q5UJ4KZwlYdVW35zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							
 							<!-- Fin de la publicación -->
 						</div>
 					</div>
