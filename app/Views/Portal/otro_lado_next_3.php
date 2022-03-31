@@ -35,7 +35,7 @@
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'colonia4.jpg');?>" alt="">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'movimiento1.jpeg');?>" alt="">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -46,7 +46,7 @@
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html"> 13 Colonias</a>
+										<a href="news_post.html"> Movimientos indígenas</a>
 									</div>
 									<div class="news_post_meta">
 										<span class="news_post_author"><a href="#">Por: Ana Rugerio</a></span>
@@ -55,19 +55,19 @@
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p>Conocer los procesos de independencia de los países de América y 
-									el inicio de las revoluciones burguesas es fundamental para 
-									estudiar los temas de la Historia Universal  ...</p>
+								<p>A partir de los últimos años del siglo XX, algunos pueblos indígenas de 
+									México comenzaron a fortalecer su presencia política en la socie-dad mexicana....</p>
 							</div>
 							<div class="news_post_button text-center trans_200">
-								<a href="<?=route_to ('otro_lado_6');?>">Leer más</a>
+								<a href="<?=route_to ('otro_lado_8');?>">Leer más</a>
 							</div>
 						</div>
 
-						<!-- News Post -->
+						
+						<!-- News Post 9 -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'moctezuma1.jpg');?>" alt="">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'nomadas.jpeg');?>" alt="">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -78,7 +78,7 @@
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html"> ¿QUIÉN MATÓ A MOCTEZUMA?</a>
+										<a href="news_post.html"> De nómadas a sedentarios</a>
 									</div>
 									<div class="news_post_meta">
 										<span class="news_post_author"><a href="#">Por: Ana Rugerio</a></span>
@@ -87,20 +87,19 @@
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p>Moctezuma le hablaron con gran acatamiento y cesaron de tirar proyectiles, 
-									lo que implica el respeto que se le tenía; el otro, cuando acto seguido se 
-									le comunica a Moctezuma que había sido depuesto del cargo de tlatoani y se 
-									nombra como señor de México a su hermano Cuitláhuac. ...</p>
+								<p>a teoría más conocida sobre los primeros humanos que llegaron a América 
+									señala que vinieron desde Asia, cuando gran parte del agua de los océanos 
+									estaba congelada en enormes glaciares; sin embargo ...</p>
 							</div>
 							<div class="news_post_button text-center trans_200">
-								<a href="<?=route_to ('otro_lado_7');?>">Leer más</a>
+								<a href="<?=route_to ('otro_lado_9');?>">Leer más</a>
 							</div>
 						</div>
 
-						<!-- News Post -->
+						<!-- News Post10 -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'oceano.jpg');?>" alt="">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'mesoamerica.jpg');?>" alt="">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -111,7 +110,7 @@
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">Océano Ártico</a>
+										<a href="news_post.html">Las ciudades mesoamericanas</a>
 									</div>
 									<div class="news_post_meta">
 										<span class="news_post_author"><a href="#">Por: Ana Rugerio</a></span>
@@ -120,11 +119,11 @@
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p>El océano Ártico se encuentra en el norte del planeta, 
-									no tiene masa continental ...</p>
+								<p>Los primeros grandes centros ceremoniales mesoa-mericanos fueron 
+									construidos en el golfo de México, donde se desarrolló la culturaolmeca ...</p>
 							</div>
 							<div class="news_post_button text-center trans_200">
-								<a href="<?=route_to ('otro_lado_5');?>">Leer más</a>
+								<a href="<?=route_to ('otro_lado_10');?>">Leer más</a>
 							</div>
 						</div>
 					</div>
