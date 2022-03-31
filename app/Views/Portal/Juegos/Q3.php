@@ -32,7 +32,7 @@
 <script language="JavaScript">
 
 var alfab="abcdefghijklmnñopqrstuvxyz"
-var nump=16
+var nump=18
 var nrp=4
 function corrixe(){
 var acertos=0
