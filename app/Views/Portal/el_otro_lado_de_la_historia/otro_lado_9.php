@@ -36,7 +36,7 @@
 						<!-- Nueva publicación -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'movimiento2.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'nomadas2.jpeg');?>">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -47,7 +47,7 @@
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">Movimientos indígenas</a>
+										<a href="news_post.html">De nómadas a sedentarios</a>
 									</div>
 									<div class="news_post_meta">
 										<span class="news_post_author">Por: Ana Rugerio</a></span>
@@ -56,29 +56,37 @@
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p>  A partir de los últimos años del siglo XX, algunos pueblos indígenas 
-									de México comenzaron a fortalecer su presencia política en la socie-dad 
-									mexicana. Su lucha por la autonomía, es decir, por su derecho a mantener 
-									sus formas tradicionales de organización, se ha convertido en un asunto 
-									central del debate nacional.
- </p>
+								<p>La teoría más conocida sobre los primeros humanos que llegaron a América 
+									señala que vinieron desde Asia, cuando gran parte del agua de los océanos 
+									estaba congelada en enormes glaciares; sin embargo, de-jaba al descubierto 
+									algunos pasos de tierra, como el que se formó en el estrecho de Bering que 
+									separa Asia de Norteamérica. Durante milenios, los habitantes de América se 
+									agruparon en bandas de cazadores y reco-lectores que llevaban una vida nómada, 
+									es decir, caminaban de un lugar a otro en busca de alimentos. Se refugiaban en 
+									cuevas, comían frutos, semillas y cazaban megafauna americana: mamuts, caballos, 
+									antílopes y bisontes, hoy extintos.
 							</div>
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'movimiento3.png');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'nomadas3.jpg');?>">
 							</div>
 							<div class="news_post_quote">
-								<p class="news_post_quote_text"><span>“E</span>n abril de 2011, el pueblo de Cherán 
-								se organizó de forma comunitaria para hacer respetar sus usos y costumbres.”.</p>
+								<p class="news_post_quote_text"><span>“E</span>n la actualidad, 82% de las familias mexicanas 
+								incluye tortillas en su dieta diaria. Sin embargo, a diferencia de lo que ocurría en el México 
+								prehispánico, hoy, nuestro país no produce la totalidad del maíz que consume su población; al año, 
+								México importa de Estados Unidos cerca de 10 millones de toneladas de dicho grano.”.</p>
 							</div>
 
-							<p class="news_post_text" style="margin-top: 59px;">Grupos como el Ejército Zapatista 
-							de Liberación Nacional en Chiapas (EZLN); cooperativas de productores, como el proyecto 
-							To-sepan Titataniske en Puebla; o experiencias de autonomía directa, como la del pueblo 
-							purépecha en Cherán, Michoacán, desde hace años han mantenido una lucha en defensa de los 
-							derechos políticos, territoriales y culturales de los pueblos indígenas de nuestro país	 </p>
+							<p class="news_post_text" style="margin-top: 59px;">Alrededor del año 5000 a.n.e., los pobladores que 
+							se fueron asen-tando poco a poco comenzaron a cultivar plantas como chile, frijol, aguacate y calabaza, 
+							ya que aprendieron a elegir las mejores semillas y las protegían de la maleza. De especial importancia 
+							fue la domestica-ción del maíz, entre el 5000 y el 2500 a.n.e., porque signiﬁcó el paso de la vida nómada 
+							a la sedentaria. Los antiguos mexicanos se volvieron agricultores y formaron aldeas más o menos ﬁjas. Con 
+							el tiempo, estos asentamientos mostraron una mayor diferenciación social: había quie-nes practicaban la 
+							agricultura, mientras otros cumplían funciones de defensa o religiosas. Al crecer, las aldeas dieron origen 
+							a las ciudades.	 </p>
 
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'movimiento4.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'nomadas4.jpg');?>">
 							</div>
 
 							

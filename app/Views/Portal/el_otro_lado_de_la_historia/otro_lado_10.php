@@ -36,7 +36,7 @@
 						<!-- Nueva publicación -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'movimiento2.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'mesoamerica1.jpg');?>">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -47,7 +47,7 @@
 								</div>
 								<div class="news_post_title_container">
 									<div class="news_post_title">
-										<a href="news_post.html">Movimientos indígenas</a>
+										<a href="news_post.html">Las ciudades mesoamericanas</a>
 									</div>
 									<div class="news_post_meta">
 										<span class="news_post_author">Por: Ana Rugerio</a></span>
@@ -56,32 +56,39 @@
 								</div>
 							</div>
 							<div class="news_post_text">
-								<p>  A partir de los últimos años del siglo XX, algunos pueblos indígenas 
-									de México comenzaron a fortalecer su presencia política en la socie-dad 
-									mexicana. Su lucha por la autonomía, es decir, por su derecho a mantener 
-									sus formas tradicionales de organización, se ha convertido en un asunto 
-									central del debate nacional.
- </p>
+								<p>Los primeros grandes centros ceremoniales mesoa-mericanos fueron 
+									construidos en el golfo de México, donde se desarrolló la culturaolmeca. 
+									Uno de sus principales asentamientos fue La Venta (900-400 a.n.e.), en 
+									el actual estado de Tabasco; allí, se erigió la primera pirámide en América. 
+									En otras regiones de Mesoamérica también se desarrollaron culturas de estilo 
+									olmeca. Además de sus construcciones, los ol-mecas sentaron las bases culturales 
+									y tecnológicas de las futuras culturas mesoamericanas, como la es-critura y el calendario. </p>
 							</div>
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'movimiento3.png');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'mesoamerica2.jpg');?>">
 							</div>
 							<div class="news_post_quote">
-								<p class="news_post_quote_text"><span>“E</span>n abril de 2011, el pueblo de Cherán 
-								se organizó de forma comunitaria para hacer respetar sus usos y costumbres.”.</p>
+								<p class="news_post_quote_text"><span>“L</span> a cultura está constituida por saberes, 
+								costumbres y tradiciones de un pueblo, también incluye sus modos de vida, actividades 
+								económicas, así como sus manifestaciones artísticas y religiosas”.</p>
 							</div>
 
-							<p class="news_post_text" style="margin-top: 59px;">Grupos como el Ejército Zapatista 
-							de Liberación Nacional en Chiapas (EZLN); cooperativas de productores, como el proyecto 
-							To-sepan Titataniske en Puebla; o experiencias de autonomía directa, como la del pueblo 
-							purépecha en Cherán, Michoacán, desde hace años han mantenido una lucha en defensa de los 
-							derechos políticos, territoriales y culturales de los pueblos indígenas de nuestro país	 </p>
+							<p class="news_post_text" style="margin-top: 59px;">Algunas de las ciudades más representativas 
+							del México antiguo se desarrollaron a ﬁnales del Preclásico y durante el Clásico. Para el año 
+							600 n.e., la ciudad zapoteca de Monte Albán (Oaxa-ca) tenía cerca de 30 000 habitantes, 
+							mientras que Teotihuacan (Estado de México) con-taba con alrededor de 150 000 a 200 000 habitantes	 </p>
 
 							<div class="news_post_image">
-								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'movimiento4.jpg');?>">
+								<img src="<?= base_url(RECURSOS_PORTAL_IMAGES.'mesoamerica3.jpg');?>">
 							</div>
 
-							
+							<p class="news_post_text" style="margin-top: 59px;">La población de las ciudades del Clásico era 
+							muy diversiﬁcada: había agricultores, artesanos, comerciantes y gobernantes. Las ediﬁcaciones 
+							religiosas y políticas fueron construidas con piedras y materiales dura-deros, de acuerdo con 
+							un plan de urbanización. Allí se llevaban a cabo ceremonias y se transmitían mensajes políticos 
+							y religiosos. La mayoría de los habitantes vivía en las orillas de estos centros.	 </p>
+
+
 							<!-- Fin de la publicación -->
 						</div>
 					</div>
