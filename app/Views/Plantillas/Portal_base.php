@@ -13,6 +13,9 @@
 <link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_PLUGINS.'OwlCarousel2-2.2.1/owl.theme.default.css');?>">
 <link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_PLUGINS.'OwlCarousel2-2.2.1/animate.css');?>">
 <link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_CSS.'icon_responsive.css');?>">
+<!-- //Css para e boton de subir al inicio de la pagina -->
+<link href="<?= base_url(RECURSOS_PORTAL_CSS. 'gotop.css');?>" rel="stylesheet"> 
+
 <!-- ============================================================== -->
     <!-- This page css -->
     <!-- ============================================================== -->
@@ -226,6 +229,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Proye
 	</footer>
 
 </div>
+<div class="go-top-container">
+	<div class="go-top-button">
+		<img class="flecha_arriba" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'arriba.png');?>" alt="">
+	</div>
+</div>
 
 <script src="<?= base_url(RECURSOS_PORTAL_JS.'jquery-3.2.1.min.js');?>"></script>
 <script src="<?= base_url(RECURSOS_PORTAL_CSS.'bootstrap4/popper.js');?>"></script>
@@ -239,6 +247,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Proye
 <script src="<?= base_url(RECURSOS_PORTAL_PLUGINS.'scrollTo/jquery.scrollTo.min.js');?>"></script>
 <script src="<?= base_url(RECURSOS_PORTAL_PLUGINS.'easing/easing.js');?>"></script>
 <script src="<?= base_url(RECURSOS_PORTAL_JS.'custom.js');?>"></script>
+<!-- Boton para ir arriba de la pagina --> 
+<script type="text/javascript" src="<?= base_url(RECURSOS_PORTAL_JS. 'gotop.js');?>"></script>
+
 
     <!-- ============================================================== -->
     <!-- This page plugins -->
