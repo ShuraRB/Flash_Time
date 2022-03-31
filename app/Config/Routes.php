@@ -67,6 +67,13 @@ $routes->get('/otro_lado_3', 'Portal\El_otro_lado_de_la_historia\Otro_lado_3::in
 $routes->get('/otro_lado_4', 'Portal\El_otro_lado_de_la_historia\Otro_lado_4::index',['as' => 'otro_lado_4']);
 $routes->get('/otro_lado_5', 'Portal\El_otro_lado_de_la_historia\Otro_lado_5::index',['as' => 'otro_lado_5']);
 $routes->get('/otro_lado_6', 'Portal\El_otro_lado_de_la_historia\Otro_lado_6::index',['as' => 'otro_lado_6']);
+$routes->get('/otro_lado_7', 'Portal\El_otro_lado_de_la_historia\Otro_lado_7::index',['as' => 'otro_lado_7']);
+$routes->get('/otro_lado_8', 'Portal\El_otro_lado_de_la_historia\Otro_lado_8::index',['as' => 'otro_lado_8']);
+$routes->get('/otro_lado_9', 'Portal\El_otro_lado_de_la_historia\Otro_lado_9::index',['as' => 'otro_lado_9']);
+$routes->get('/otro_lado_10', 'Portal\El_otro_lado_de_la_historia\Otro_lado_10::index',['as' => 'otro_lado_10']);
+$routes->get('/otro_lado_11', 'Portal\El_otro_lado_de_la_historia\Otro_lado_11::index',['as' => 'otro_lado_11']);
+$routes->get('/otro_lado_12', 'Portal\El_otro_lado_de_la_historia\Otro_lado_12::index',['as' => 'otro_lado_12']);
+$routes->get('/otro_lado_13', 'Portal\El_otro_lado_de_la_historia\Otro_lado_13::index',['as' => 'otro_lado_13']);
 
 
 
