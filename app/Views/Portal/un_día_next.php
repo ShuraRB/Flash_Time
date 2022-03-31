@@ -40,7 +40,7 @@
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
 										<div>21</div>
-										<div>Marzo</div>
+										<div>Abril</div>
 									</div>
 								</div>
 								<div class="news_post_title_container">
@@ -70,8 +70,8 @@
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>25</div>
-										<div>Marzo</div>
+										<div>15</div>
+										<div>Mayo</div>
 									</div>
 								</div>
 								<div class="news_post_title_container">
@@ -101,8 +101,8 @@
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>26</div>
-										<div>Marzo</div>
+										<div>7</div>
+										<div>Junio</div>
 									</div>
 								</div>
 								<div class="news_post_title_container">

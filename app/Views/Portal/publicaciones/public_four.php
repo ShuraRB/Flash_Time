@@ -41,8 +41,8 @@
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
 									<div class="news_post_date d-flex flex-column align-items-center justify-content-center">
-										<div>25</div>
-										<div>mar</div>
+										<div>21</div>
+										<div>Abril</div>
 									</div>
 								</div>
 								<div class="news_post_title_container">
