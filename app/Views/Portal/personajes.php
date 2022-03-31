@@ -67,7 +67,7 @@
 						</div>
 					</div>
 				</div>
-
+<br>
 				<!-- Teacher -->
 				<!-- <div class="col-lg-4 teacher">
 					<div class="card">

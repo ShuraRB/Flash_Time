@@ -1,0 +1,15 @@
+.about-us{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 100;
+    /* text-transform: uppercase; */
+    text-align: justify;
+}
+
+.about-us-person{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 100;
+  /* text-transform: uppercase; */
+  text-align: center;
+}

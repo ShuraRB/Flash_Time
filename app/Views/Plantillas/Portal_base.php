@@ -73,7 +73,7 @@
 			</nav>
 		</div>
 		<div class="header_side d-flex flex-row justify-content-center align-items-center">
-			<a href="<?= route_to('un_día');?>">
+			<a href="<?= route_to('aboutus');?>">
 			<center><img class="icon_menu" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'about-b.png');?>" alt="un_dia"></center>
 			<div><span>Sobre Nosotros</span></div></a>
 		</div>
@@ -103,6 +103,7 @@
 						Inicio</a>
 					</li>
 					<li class="menu_item menu_mm">
+						<a href="<?php route_to('juego');?>">
 						<a href="<?php route_to('Juegos');?>">
 						<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick.png');?>" alt="juego">
 						Juego</a>
@@ -183,8 +184,10 @@
 									Inicio</a>
 								</li>
 								<li class="footer_list_item">
+									<a href="<?php route_to('juego');?>">
 									<a href="<?php route_to('Juegos');?>">
 									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'joystick-b.png');?>" alt="juego">
+									Juego</a>
 									Juegos</a>
 								</li>
 								<li class="footer_list_item">
@@ -203,7 +206,7 @@
 									Un día como hoy</a>
 								</li>
 								<li class="footer_list_item">
-									<a href="<?= route_to('un_día');?>">
+									<a href="<?= route_to('aboutus');?>">
 									<img class="icon_menu_footer" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'Persona-b.png');?>" alt="about_us">
 									Sobre Nosotros</a>
 								</li>
