@@ -89,6 +89,9 @@
 				<div class="col">
 					<div class="section_title text-center">
 						<h1>Un día como hoy</h1>
+						<p class="about_text">Articulos recientes. Haz clic en el titulo de la nota para 
+							leer más sobre el hecho historico de tu interes.
+							</p>
 					</div>
 				</div>
 			</div>

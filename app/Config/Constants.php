@@ -86,4 +86,5 @@ defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125); // highest auto
 define("RECURSOS_PORTAL_CSS","Recursos_Portal/css/");
 define("RECURSOS_PORTAL_JS","Recursos_Portal/js/");
 define("RECURSOS_PORTAL_IMAGES","Recursos_Portal/images/");
+define("RECURSOS_PORTAL_VIDEOS","Recursos_Portal/videos/");
 define("RECURSOS_PORTAL_PLUGINS","Recursos_Portal/plugins/");
