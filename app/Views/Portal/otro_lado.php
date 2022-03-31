@@ -132,7 +132,7 @@
 						<ul>
 							<li class="active text-center trans_200"><a href="<?= route_to('otro_lado');?>">01</a></li>
 							<li class="text-center trans_200"><a href="<?= route_to('otro_lado_next');?>">02</a></li>
-							<li class="text-center trans_200"><a href="<?= route_to('otro_lado_next');?>">03</a></li>
+							<li class="text-center trans_200"><a href="<?= route_to('otro_lado_next_3');?>">03</a></li>
 						</ul>
 					</div>
 
