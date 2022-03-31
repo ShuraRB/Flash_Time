@@ -4,6 +4,7 @@
 <?= $this->section("css")?>
 <link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_CSS.'main_styles.css');?>">
 <link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_CSS.'responsive.css');?>">
+<link rel="stylesheet" type="text/css" href="<?= base_url(RECURSOS_PORTAL_CSS.'text_styles.css');?>">
 <?= $this->endSection();?>   
 
 <!-- CONTENIDO-->
@@ -61,7 +62,9 @@
 
 	<div class="container">
 			<br>
+			
 			<div class="row">
+				
 				<div class="col">
 					<div class="section_title text-center">
 						<h1>Te invitamos a aprender historia.</h1>
@@ -88,10 +91,15 @@
 			<div class="row">
 				<div class="col">
 					<div class="section_title text-center">
-						<h1>Un día como hoy</h1>
-						<p class="about_text">Articulos recientes. Haz clic en el titulo de la nota para 
+						<a href="<?= route_to('inicio');?>">
+							<h1><img class="icon_inicio" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'reloj.png');?>" alt="">
+								Un día como hoy
+							</h1>
+						</a>
+						<p class="text_inicio">Articulos recientes. Haz clic en el titulo de la nota para 
 							leer más sobre el hecho historico de tu interes.
 							</p>
+						
 					</div>
 				</div>
 			</div>
@@ -99,7 +107,7 @@
 			<div class="event_items">
 
 				<!-- Event Item -->
-				"><div class="row event_item">
+				<div class="row event_item">
 					<div class="col">
 						<div class="row d-flex flex-row align-items-end">
 
@@ -201,7 +209,15 @@
 		<div class="row">
 				<div class="col">
 					<div class="section_title text-center">
-						<h1>Personajes historicos</h1>
+						<a href="<?= route_to('inicio');?>">
+							<h1><img class="icon_inicio" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'escudo.png');?>" alt="">
+								Personajes historicos.
+							</h1>
+						</a>
+						<p class="text_inicio">Para saber mas sobre el personaje historico de tu interes, haz click 
+							sobre la imagen o sobre el nombre.
+							</p>
+						
 					</div>
 				</div>
 			</div>
