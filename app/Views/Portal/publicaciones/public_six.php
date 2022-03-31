@@ -89,16 +89,14 @@
 
 						<!-- Archives -->
 						<div class="sidebar_section">
-							<div class="sidebar_section_title">
-								<h3>Articulos Completos</h3>
+						    <div class="sidebar_section_title">
+								<h3>Temario</h3>
+								<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'temario.png');?>" alt="un_dia">
 							</div>
 							<ul class="sidebar_list">
-							<li class="sidebar_list_item"><a href="<?= route_to('public_one');?>">Natalicio Benito Juárez</a></li>
-								<li class="sidebar_list_item"><a href="<?= route_to('public_two');?>">Inauguración de la Suprema Corte de Justicia</a></li>
-								<li class="sidebar_list_item"><a href="<?= route_to('public_three');?>">Promulgación del plan de guadalupe</a></li>
-								<li class="sidebar_list_item"><a href="<?= route_to('public_four');?>">Heroica defensa del puerto de Veracruz</a></li>
-								<li class="sidebar_list_item"><a href="<?= route_to('public_five');?>">Toma de Querétaro</a></li>
-								<li class="sidebar_list_item"><a href="<?= route_to('public_six');?>">Fundación de Petróleos Mexicanos PEMEX</a></li>
+							<li class="sidebar_list_item"><a href="<?= route_to('primero');?>">Primero de secundaria</a></li>
+								<li class="sidebar_list_item"><a href="<?= route_to('segundo');?>">Segundo de secundaria</a></li>
+								<li class="sidebar_list_item"><a href="<?= route_to('tercero');?>">Tercero de secundaria</a></li>
 							</ul>
 						</div>
 

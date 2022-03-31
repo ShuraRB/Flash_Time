@@ -60,9 +60,9 @@ $routes->get('/public_four', 'Portal\publicaciones\public_four::index',['as' => 
 $routes->get('/public_five', 'Portal\publicaciones\public_five::index',['as' => 'public_five']);
 $routes->get('/public_six', 'Portal\publicaciones\public_six::index',['as' => 'public_six']);
 //Rutas para vistas grados
-$routes->get('/primero', 'Portal\publicaciones\primero::index',['as' => 'primero']);
-$routes->get('/segundo', 'Portal\publicaciones\segundo::index',['as' => 'segundo']);
-$routes->get('/tercero', 'Portal\publicaciones\tercero::index',['as' => 'tercero']);
+$routes->get('/primero', 'Portal\grados\primero::index',['as' => 'primero']);
+$routes->get('/segundo', 'Portal\grados\segundo::index',['as' => 'segundo']);
+$routes->get('/tercero', 'Portal\grados\tercero::index',['as' => 'tercero']);
 //Rutas personajes
 $routes->get('/hidalgo', 'Portal\Personajes\Hidalgo::index',['as' => 'hidalgo']);
 $routes->get('/morelos', 'Portal\Personajes\Morelos::index',['as' => 'morelos']);

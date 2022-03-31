@@ -145,13 +145,14 @@
 						<!-- Archives -->
 						<div class="sidebar_section">
 							<div class="sidebar_section_title">
-							<h3>Temario</h3>
 							<img class="icon_menu_mm" src="<?= base_url(RECURSOS_PORTAL_IMAGES.'temario.png');?>" alt="un_dia">
+							<h3>Temario</h3>
+							
 							</div>
 							<ul class="sidebar_list">
-								<li class="sidebar_list_item"><a href="<?= route_to('public_one');?>">Primero de secundaria</a></li>
-								<li class="sidebar_list_item"><a href="<?= route_to('public_two');?>">Segundo de secundaria</a></li>
-								<li class="sidebar_list_item"><a href="<?= route_to('public_three');?>">Tercero de secundaria</a></li>
+								<li class="sidebar_list_item"><a href="<?= route_to('primero');?>">Primero de secundaria</a></li>
+								<li class="sidebar_list_item"><a href="<?= route_to('segundo');?>">Segundo de secundaria</a></li>
+								<li class="sidebar_list_item"><a href="<?= route_to('tercero');?>">Tercero de secundaria</a></li>
 								
 							</ul>
 						</div>
